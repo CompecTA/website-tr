@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}Error 404{% endblock %}
+
+{% block slider %}{% endblock %}
+
+{% block breadcrumb %}
+			<div class="breadcrumb-container">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home pr-10"></i><a href="index.html">Home</a></li>
+						<li class="active">Page 404</li>
+					</ol>
+				</div>
+			</div>
+{% endblock %}
+
+{% block content %}
+			<section class="main-container jumbotron light-gray-bg text-center margin-clear">
+				<div class="container">
+					<div class="row">
+
+						<!-- main start -->
+						<!-- ================ -->
+						<div class="main col-md-6 col-md-offset-3 pv-40">
+							<h1 class="page-title"><span class="text-default">404</span></h1>
+							<h2>Page Not Found</h2>
+							<p>The requested URL was not found on this server. Make sure that the web site address is spelled and formatted correctly.</p>
+							<a class="btn btn-default btn-animated btn-lg" href="index.html">Back to Home <i class="fa fa-home"></i></a>
+						</div>
+						<!-- main end -->
+
+					</div>
+				</div>
+			</section>
+{% endblock %}

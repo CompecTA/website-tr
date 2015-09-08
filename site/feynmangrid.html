@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+{% block title %}FeynmanGrid{% endblock %}
+
+{% block breadcrumb %}
+			<div class="breadcrumb-container">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home pr-10"></i><a href="index.html">Home</a></li>
+						<li><a href="products.html">Products</a></li>
+						<li class="active">FeynmanGrid</li>
+					</ol>
+				</div>
+			</div>
+{% endblock %}
+
+{% block slider %}
+			<!-- banner start -->
+			<!-- ================ -->
+			<div class="banner dark-translucent-bg" style="background-image:url('images/banners/feynmangrid.jpg'); background-position: 50% 25%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 text-center col-md-offset-1 pv-20">
+							<h3 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">CompecTA FeynmanGrid</h3>
+							<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="100"></div>
+							<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">FeynmanGrid service is managed & supported entirely by CompecTA, taking advantage of years experience in performance optimizing HPC Clusters & first class support.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- banner end -->
+{% endblock %}
+
+{% block content %}
+
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="full-width-section pv-40 light-gray-bg border-clear">
+				<div class="clearfix">
+					<img alt="" src="images/feynmangrid.jpg" class="pull-right object-non-visible object-visible">
+				</div>
+				<div class="full-text-container light-gray-bg border-clear">
+					<h3>Feynman<strong>Grid</strong></h3>
+					<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempore mollitia sed, temporibus, quaerat recusandae!</p> -->
+					<br class="hidden-sm hidden-xs">
+					<div class="feature-box-2 margin-clear">
+						<span class="icon without-bg"><i class="text-default icon-heart-1"></i></span>
+						<div class="body space-bottom">
+							<!-- <h4>Latest Technologies</h4> -->
+							<p class="large">We offer a HPC Cluster service which you can use to run your applications, renting CPU time & disk space. We call it FeynmanGrid in the honour of the great physicist Richard Feynman.</p>
+							<div class="separator-2 space-top visible-lg"></div>
+						</div>
+					</div>
+					<div class="feature-box-2 margin-clear">
+						<span class="icon without-bg"><i class="text-default icon-tools"></i></span>
+						<div class="body space-bottom">
+							<!-- <h4>Deticated Support</h4> -->
+							<p class="large">FeynmanGrid service is managed & supported entirely by CompecTA, taking advantage of years experience in performance optimizing HPC Clusters & first class support.</p>
+							<div class="separator-2 space-top visible-lg"></div>
+						</div>
+					</div>
+					<div class="feature-box-2 margin-clear">
+						<span class="icon without-bg"><i class="text-default icon-gauge"></i></span>
+						<div class="body space-bottom">
+							<!-- <h4>Valid Code</h4> -->
+							<p class="large">Our cluster uses Intel’s best Xeon CPUs with FDR Infiniband interconnects (56Gbit/s) and our modern and flexible file system solution, the <a href="feynmanstorz.html">FeynmanStor Z</a>.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- section end -->
+{% endblock %}
