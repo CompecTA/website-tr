@@ -1,0 +1,7 @@
+Jinja2==2.7.1
+Markdown==2.3.1
+MarkupSafe==0.18
+Werkzeug==0.10.1
+#blatter==0.5
+https://bitbucket.org/jek/blatter/get/default.tar.gz
+wsgiref==0.1.2
