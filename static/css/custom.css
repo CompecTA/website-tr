@@ -32,12 +32,12 @@ bilgi@parstanitim.com
        -moz-border-radius: 3px;
             border-radius: 3px;
 }
-.scrollToTop:hover { background:  rgba(9,175,223,0.6);}
+.scrollToTop:hover { background:  rgba(32,127,202,0.9);}
 .scrollToTop i {line-height: 40px; font-size: 20px;}
 
-.feature-box-2 a, .feature-box-2 a:visited, .feature-box-2 a:hover {color: #09afdf;}
+.feature-box-2 a, .feature-box-2 a:visited, .feature-box-2 a:hover {color: #1b75bc;}
 .feature-box-2 h4.title a {text-decoration: none; color: #333;}
-.feature-box-2 h4.title a:hover {text-decoration: none; color: #09afdf;}
+.feature-box-2 h4.title a:hover {text-decoration: none; color: #1b75bc;}
 
 .dark-translucent-bg::after {
     background: rgba(0, 0, 0, .5);
@@ -61,7 +61,7 @@ bilgi@parstanitim.com
 }
 
 .footer {padding: 40px 0 20px 0;}
-#logo-footer {height: 45px; width: auto;}
+#logo-footer {height: 52px; width: auto;}
 #logo img {transition:none; padding: 5px 0;}
 
 .header .logo img {max-height: 64px;}

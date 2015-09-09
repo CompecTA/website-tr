@@ -76,8 +76,9 @@
 
 						<!-- sidebar start -->
 						<!-- ================ -->
-						<aside class="col-md-4 col-lg-offset-1">
-							<div class="sidebar">
+						<aside class="col-md-5 col-lg-4 col-lg-offset-1">
+							<div class="sidebar space-top">
+								<div id="map-canvas" class="small"></div>
 								<div class="side vertical-divider-left">
 									<!-- <h3 class="title logo-font">The <span class="text-default">Project</span></h3> -->
 									<div class="separator-2 mt-20"></div>
@@ -95,4 +96,9 @@
 				</div>
 			</div>
 			<!-- section end -->
+{% endblock %}
+{% block extrajs %}
+		<!-- Google Maps javascript -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;signed_in=true"></script>
+		<script type="text/javascript" src="js/google.map.config.js"></script>
 {% endblock %}
