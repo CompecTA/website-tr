@@ -25,7 +25,7 @@ h4,
 h5,
 h6,
 .navbar .navbar-nav {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -6355,14 +6355,14 @@ h6.media-heading {
 }
 .xlarge_white {
   font-size: 68px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #ffffff;
   line-height: 1.2;
 }
 .large_white {
   font-size: 42px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #ffffff;
   line-height: 1.2;
 }
@@ -6378,14 +6378,14 @@ h6.media-heading {
 }
 .xlarge_dark {
   font-size: 68px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   color: #333;
   line-height: 1.2;
 }
 .large_dark {
   font-size: 42px;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   line-height: 1.2;
 }
@@ -6601,7 +6601,7 @@ h6.media-heading {
   color: #ffffff;
   text-transform: none;
   font-weight: 300;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 /* Small devices (tablets, phones 768px and Up) */
 @media (min-width: 768px) {
