@@ -3,7 +3,7 @@ session_cache_limiter('nocache');
 header('Expires: ' . gmdate('r', 0));
 header('Content-type: application/json');
 
-$Recipient = 'set_your_email_here@domain.com'; // <-- Set your email here
+$Recipient = 'ekrem.seren@compecta.com'; // <-- Set your email here
 
 $subject = $_POST['subject'];
 
@@ -13,18 +13,13 @@ if($Recipient) {
 	$Email = $_POST['email'];
 	$Subject = $_POST['subject'];
 	$Message = $_POST['message'];
-	$Guests = $_POST['guests'];
-	$Events = $_POST['events'];
-	$Category = $_POST['category'];
 
 	$Email_body = "";
-	$Email_body .= "From: " . $Name . "\n" .
+	$Email_body .= "Message from CompecTA website contact form" . "\n" .
+				   "From: " . $Name . "\n" .
 				   "Email: " . $Email . "\n" .
 				   "Subject: " . $Subject . "\n" .
-				   "Message: " . $Message . "\n" .
-				   "No Of Guests: " . $Guests . "\n" .
-				   "Event: " . $Events . "\n" .
-				   "Category: " . $Category . "\n";
+				   "Message: " . $Message . "\n";
 
 	$Email_headers = "";
 	$Email_headers .= 'From: ' . $Name . ' <' . $Email . '>' . "\r\n".
