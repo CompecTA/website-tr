@@ -1374,6 +1374,10 @@ h5 + .separator {
 }
 /* Miscellaneous
 ---------------------------------- */
+.p-0 {padding: 0 !important;}
+
+.m-0 {margin: 0 !important;}
+
 .pl-5 {
   padding-left: 5px;
 }
