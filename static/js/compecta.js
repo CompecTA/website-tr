@@ -322,7 +322,7 @@
 			});
 
 			$('.banner:not(.dark-bg) .slider-banner-container .slider-banner-boxedwidth').show().revolution({
-				delay:8000,
+				delay:6000,
 				startwidth:1140,
 				startheight:450,
 				
@@ -352,7 +352,7 @@
 				stopLoop:"off",
 				stopAfterLoops:-1,
 				stopAtSlide:-1,
-				onHoverStop: "off",
+				onHoverStop: "on",
 
 				shuffle:"off",
 				
@@ -546,7 +546,7 @@
                 itemsDesktop: [1024, 11],
                 itemsDesktopSmall: [992, 10],
                 itemsTablet: [767, 8],
-                itemsMobile: [479, 4]
+                itemsMobile: [479, 5]
 			});
 			$(".owl-carousel.content-slider").owlCarousel({
 				singleItem: true,
@@ -1075,19 +1075,19 @@
 				},
 				messages: {
 					name: {
-						required: "Lütfen isminizi yazınız",
-						minlength: "İsminiz en az 2 karakter olmalıdır"
+						required: "Please specify your name",
+						minlength: "Your name must be longer than 2 characters"
 					},
 					email: {
-						required: "Size ulaşabilmek için eposta adresinizi giriniz",
-						email: "Lütfen geçerli bir eposta adresi giriniz."
+						required: "We need your email address to contact you",
+						email: "Please enter a valid email address e.g. name@domain.com"
 					},
 					subject: {
-						required: "Lütfen bir konu belirtiniz"
+						required: "Please enter a subject"
 					},
 					message: {
-						required: "Lütfen mesajınızı yazını",
-						minlength: "Mesajınız en az 10 karakterden oluşmalıdır"
+						required: "Please enter a message",
+						minlength: "Your message must be longer than 10 characters"
 					}					
 				},
 				errorElement: "span",
@@ -1153,16 +1153,16 @@
 				},
 				messages: {
 					name2: {
-						required: "Lütfen isminizi yazınız",
-						minlength: "İsminiz en az 2 karakter olmalıdır"
+						required: "Please specify your name",
+						minlength: "Your name must be longer than 2 characters"
 					},
 					email2: {
-						required: "Size ulaşabilmek için eposta adresinizi giriniz",
-						email: "Lütfen geçerli bir eposta adresi giriniz."
+						required: "We need your email address to contact you",
+						email: "Please enter a valid email address e.g. name@domain.com"
 					},
 					message2: {
-						required: "Lütfen mesajınızı yazını",
-						minlength: "Mesajınız en az 10 karakterden oluşmalıdır"
+						required: "Please enter a message",
+						minlength: "Your message must be longer than 10 characters"
 					}
 				},
 				errorElement: "span",
@@ -1230,16 +1230,16 @@
 				},
 				messages: {
 					name3: {
-						required: "Lütfen isminizi yazınız",
-						minlength: "İsminiz en az 2 karakter olmalıdır"
+						required: "Please specify your name",
+						minlength: "Your name must be longer than 2 characters"
 					},
 					email3: {
-						required: "Size ulaşabilmek için eposta adresinizi giriniz",
-						email: "Lütfen geçerli bir eposta adresi giriniz."
+						required: "We need your email address to contact you",
+						email: "Please enter a valid email address e.g. name@domain.com"
 					},
 					message3: {
-						required: "Lütfen mesajınızı yazını",
-						minlength: "Mesajınız en az 10 karakterden oluşmalıdır"
+						required: "Please enter a message",
+						minlength: "Your message must be longer than 10 characters"
 					}					
 				},
 				errorElement: "span",
@@ -1307,12 +1307,12 @@
 				},
 				messages: {
 					name: {
-						required: "Lütfen isminizi yazınız",
-						minlength: "İsminiz en az 2 karakter olmalıdır"
+						required: "Please specify your name",
+						minlength: "Your name must be longer than 2 characters"
 					},
 					email: {
-						required: "Size ulaşabilmek için eposta adresinizi giriniz",
-						email: "Lütfen geçerli bir eposta adresi giriniz."
+						required: "We need your email address to contact you",
+						email: "Please enter a valid email address e.g. name@domain.com"
 					}					
 				},
 				errorElement: "span",

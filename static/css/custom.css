@@ -76,6 +76,32 @@ bilgi@parstanitim.com
     margin-right: 16px;
 }
 
+.anamenu .dropdown-menu small {
+    margin-left: 2.7em;
+    color: gray;
+}
+.performance {
+    font-size: 12px; 
+    min-height: 44px; 
+}
+.bestfor {
+    font-size: 1em; 
+    min-height: 80px; 
+}
+
+.freebirdFormviewerViewFormBanner {
+    background-color: white!important;
+    display: none!important;
+}
+
+.image-box .body {
+    min-height: 200px;
+}
+
+iframe {
+    background: white!important;
+}
+
 @media(min-width:991px){
     .anamenu {float:right;}
 }
@@ -88,4 +114,5 @@ bilgi@parstanitim.com
 	header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 44px;}
 	.banner.dark-translucent-bg, .banner.default-translucent-bg, .banner.light-translucent-bg, .banner.parallax {padding-top: 40px;}
 	.main-container {padding: 0;}
+    .clients .partner-image {height: 22px;}
 }

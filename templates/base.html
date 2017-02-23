@@ -7,17 +7,26 @@
 <head>
 	<meta charset="utf-8">
 	<title>CompecTA | {% block title %}Bilişim ve İletişim Hizmetleri{% endblock %}</title>
-	<meta name="description" content="We develop secure, scalable, high available, high performance computing and virtual productive system and network solutions for any kind of bussiness and research needs.">
+	<meta name="description" content="Her türlü iş ve araştırma ihtiyaçları için güvenli, ölçeklenebilir, yüksek başarımlı, yüksek performanslı bilgisayar ve sanal üretken sistem ve ağ çözümleri geliştiriyoruz.">
     <meta name="keywords" content="hpc, high performance computing, yüksek başarımlı hesaplama, cloud computing, bulut bilişim, high speed computing, yüksek hızlı hesaplama, high technology computing, virtualization, sanallaştırma, network solutions, infiniband, nvidia grid, IT solutions,">
 	<meta name="author" content="compecta.com">
+
+    <!-- Mobil Tarayıcı Rengi -->
+    <meta name="theme-color" content="#1b75bc">
+    <meta name="msapplication-navbutton-color" content="#1b75bc">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1b75bc">
 
 	<!-- Mobile Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
 	<link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
 	<!-- Web Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Serif&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 	<!-- Bootstrap core CSS -->
@@ -41,23 +50,6 @@
 </head>
 
 <body class="no-trans front-page ">
-
-
-<!-- Temporary Beta Banner -->
-<section class="section default-bg clearfix p-0">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12" style="font-size: 0.8em;">
-				<div role="alert" class="alert alert-dismissible m-0 text-center">
-					<button aria-label="Close" data-dismiss="alert" class="close" type="button"><span aria-hidden="true">×</span></button>
-					<h4 class="title" style="margin-bottom: 0px;">BETA!</h4>
-					<p>Yeni sitemiz şu anda beta aşamasındadır! Eski sitemize ulaşmak için <a href="http://v1.compecta.com/" target="_blank">http://v1.compecta.com/</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-
 
 	<!-- scrollToTop -->
 	<!-- ================ -->
@@ -101,6 +93,7 @@
 							<!-- header-top-first end -->
 						</div>
 						<div class="col-xs-8 col-sm-7">
+
 							<!-- header-top-second start -->
 							<!-- ================ -->
 							<div id="header-top-second"  class="clearfix text-right">
@@ -126,15 +119,16 @@
 							<!-- header-left start -->
 							<!-- ================ -->
 							<div class="header-left clearfix">
+
 								<!-- logo -->
 								<div id="logo" class="logo">
 									<a href="index.html"><img id="logo_img" src="images/compecta-logo.png" alt="CompecTA"></a>
 								</div>
+								
 							</div>
 							<!-- header-left end -->
 						</div>
 						<div class="col-sm-12 col-md-9">
-
 							<!-- header-right start -->
 							<!-- ================ -->
 							<div class="header-right clearfix">
@@ -156,26 +150,40 @@
 													<span class="icon-bar"></span>
 													<span class="icon-bar"></span>
 												</button>
+												
 											</div>
 
 											<!-- Collect the nav links, forms, and other content for toggling -->
 											<div id="navbar-collapse-1" class="collapse navbar-collapse">
 												<!-- main-menu -->
 												<ul class="nav navbar-nav anamenu">
+													<li class="visible-xs">
+														<a href="index.html">Anasayfa</a>
+													</li>
+													<li class="hidden-xs">
+														<a href="index.html"><i class="fa fa-home"></i></a>
+													</li>
 													<li class="dropdown ">
 														<a href="#" data-toggle="dropdown" class="dropdown-toggle">Ürünler</a>
 														<ul class="dropdown-menu">
-															<li><a href="feynmangrid.html"><i class="icon-right-open pr-10"></i>FeynmanGrid</a></li>
-															<li><a href="feynmanstorz.html"><i class="icon-right-open pr-10"></i>FeynmanStor Z</a></li>
-															<li><a href="starterpack.html"><i class="icon-right-open pr-10"></i>YBH Başlangıç Paketi</a></li>
+															<li class="dropdown-header">Derin Öğrenme (Deep Learning) Sitemleri</li>
+															<li><a href="nova.html"><i class="icon-right-open pr-10"></i>CompecTA Nova Engine&trade;<br><small>NVIDIA<sup>&reg;</sup> DIGITS&trade; Framework için Derin Öğrenme Geliştirici Kiti</small></a></li>
+															<li><a href="supernova.html"><i class="icon-right-open pr-10"></i>CompecTA SuperNova Engine&trade;<br><small>Yapay Zeka (AI) için Ölçeklenebilir Derin Öğrenme Sunucu Sistemleri</small></a></li>
+															<li><a href="dgx-1.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX-1&trade;<br><small>Dünyanın ilk Kutuda Bulunan Yapay Zekalı (AI) Süper Bilgisayarı</small></a></li>
+															<li role="separator" class="divider"></li>
+															<li class="dropdown-header">YBH (HPC) Sistemleri</li>
+															<li><a href="feynmangrid.html"><i class="icon-right-open pr-10"></i>FeynmanGrid&trade;<br><small>CompecTA'nın Talep Üzerine YBH Çözümü</small></a></li>
+															<li><a href="feynmanstorz.html"><i class="icon-right-open pr-10"></i>FeynmanStor Z&trade;<br><small>Küçük YBH Yapıları için Basit ve Hızlı Dosya Sistemi!</small></a></li>
+															<li><a href="starterpack.html"><i class="icon-right-open pr-10"></i>YBH Başlangıç Paketi<br><small>Küçük/Orta Ölçekli Kümeler için Başlangıç Seviyesi YBH Modülleri</small></a></li>
 														</ul>
 													</li>
 													<li class="dropdown ">
-														<a href="#" data-toggle="dropdown" class="dropdown-toggle">Hizmetler</a>
+														<a href="#" data-toggle="dropdown" class="dropdown-toggle">Çözümler</a>
 														<ul class="dropdown-menu">
-															<li><a href="hpc.html"><i class="icon-right-open pr-10"></i>Anahtar Teslimi YBH Çözümleri</a></li>
-															<li><a href="cloud.html"><i class="icon-right-open pr-10"></i>Bulut Hesaplama</a></li>
-															<li><a href="virtualization.html"><i class="icon-right-open pr-10"></i>Sanallaştırma & vGPU</a></li>
+															<li><a href="hpc.html"><i class="icon-right-open pr-10"></i>Anahtar Teslimi YBH Çözümleri<br><small>20 Yıllık Tecrübemizle Sunduğumuz YBH Çözümleri</small></a></li>
+															<li><a href="deeplearning.html"><i class="icon-right-open pr-10"></i>Derin Öğrenme Çözümleri<br><small>Paket Çözümler ve Kişiye Özel Hizmetler</small></a></li>
+															<li><a href="cloud.html"><i class="icon-right-open pr-10"></i>Bulut Hesaplama<br><small>YBH Uzmanlarından Profesyonel Bulut Hizmetleri</small></a></li>
+															<li><a href="virtualization.html"><i class="icon-right-open pr-10"></i>Sanallaştırma & vGPU<br><small>Sanallaştırmada Yeni Olanaklar</small></a></li>
 														</ul>
 													</li>
 													<li>
@@ -191,10 +199,13 @@
 														<a href="contact.html">İletişim</a>
 													</li>
 												</ul>
+
 											</div>
+
 										</div>
 									</nav>
 									<!-- navbar end -->
+
 								</div>
 							<!-- main-navigation end -->
 							</div>
@@ -237,9 +248,9 @@
 								<div class="footer-content text-center padding-ver-clear">
 									<div class="logo-footer"><img id="logo-footer" class="center-block" src="images/compecta-logo-footer.png" alt=""></div>
 									<div class="mb-20">
-										<i class="text-default fa fa-map-marker pr-5"></i>Yenişehir Mh. Barajyolu Cad. Özgür Sk. Tellioğlu Apt. No:7/4 Ataşehir/İSTANBUL <br>
-										<i class="text-default fa fa-phone pl-10 pr-5"></i>+90 216 455-1865
-										<i class="text-default fa fa-fax pl-10 pr-5"></i>+90 216 455-3988
+										<i class="text-default fa fa-map-marker pr-5"></i>Yenişehir Mh Barajyolu Cad. Özgür Sk. No:7 K:4 Ataşehir / İSTANBUL <br>
+										<i class="text-default fa fa-phone pr-5"></i>+90 216 455-1865<br class="visible-xs">
+										<i class="text-default fa fa-fax pl-10 pr-5"></i>+90 216 455-3988<br class="visible-xs">
 										<i class="text-default fa fa-envelope-o pl-10 pr-5"></i><a href="mailto:info@compecta.com" class="link-dark">info@compecta.com</a>
 									</div>
 									<div class="separator"></div>
@@ -261,7 +272,7 @@
 										<div class="client"><img class="partner-image" src="images/partners/scalemp.png" alt="Brocade"></div>
 									</div>
 									<div class="separator"></div>
-									<p class="text-center margin-clear small">Tüm haklası saklıdır. © 2007-2015 CompecTA Bilişim ve İletişim Hizmetleri Ltd. Sti.</p>
+									<p class="text-center margin-clear small">Tüm hakları saklıdır. © 2007-2017 CompecTA Bilişim ve İletişim Hizmetleri Ltd. Şti.</p>
 								</div>
 							</div>
 						</div>
@@ -281,7 +292,6 @@
 	<!-- Jquery and Bootstap core js files -->
 	<script type="text/javascript" src="plugins/jquery.min.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-
 	<!-- Modernizr javascript -->
 	<script type="text/javascript" src="plugins/modernizr.js"></script>
 	<!-- jQuery Revolution Slider  -->
@@ -311,7 +321,15 @@
 	{% block extrajs %}{% endblock %}
 	<!-- Initialization of Plugins -->
 	<script type="text/javascript" src="js/compecta.js"></script>
-	<!-- Custom Scripts -->
-	<script type="text/javascript" src="js/custom.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-2469656-8', 'auto');
+	  ga('send', 'pageview');
+
+	</script>	
 </body>
 </html>

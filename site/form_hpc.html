@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %}HPC Questionare{% endblock %}
+
+{% block breadcrumb %}
+			<div class="breadcrumb-container">
+				<div class="container">
+					<ol class="breadcrumb">
+						<li><i class="fa fa-home pr-10"></i><a href="index.html">Home</a></li>
+						<li class="active">HPC Questionare</li>
+					</ol>
+				</div>
+			</div>
+{% endblock %}
+
+{% block slider %}
+			<!-- banner start -->
+			<!-- ================ -->
+			<div class="banner dark-translucent-bg" style="background-image:url('images/banners/dunya.jpg'); background-position: 50% 25%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 text-center col-md-offset-2 pv-20">
+							<h3 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">HPC Questionare</h3>
+							<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="100"></div>
+							<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">Fill in the form to get professional advice on your High Performance Computing needs.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- banner end -->
+{% endblock %}
+
+{% block content %}
+
+			<!-- section start -->
+			<!-- ================ -->
+			<div class="pv-20">
+				<div class="container">
+					<div class="row">
+
+						<iframe src="https://docs.google.com/forms/d/1BeWTYVxUbCe93mCTQbjQn8-LkIweNC7soZAxyH1riQo/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+						
+					</div>
+				</div>
+			</div>
+			<!-- section end -->
+{% endblock %}
+{% block extrajs %}
+		<!-- Google Maps javascript -->
+		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false&amp;signed_in=true"></script>
+		<script type="text/javascript" src="js/google.map.config.js"></script>
+{% endblock %}
