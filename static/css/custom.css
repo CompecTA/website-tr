@@ -98,6 +98,12 @@ bilgi@parstanitim.com
     min-height: 200px;
 }
 
+.nv-preferred {
+    max-width: 240px;
+    margin-left: 0;
+    margin-bottom: 20px;
+}
+
 iframe {
     background: white!important;
 }
@@ -106,13 +112,14 @@ iframe {
     .anamenu {float:right;}
 }
 @media(max-width:991px){
-	.fixed-header-on .header-left {padding:0;}
-	.main-container {padding: 10px 0;}
+    .fixed-header-on .header-left {padding:0;}
+    .main-container {padding: 10px 0;}
 }
 @media(max-width:767px){
-	header:not(.full-width) .logo img {margin: 8px 4px;}
-	header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 44px;}
-	.banner.dark-translucent-bg, .banner.default-translucent-bg, .banner.light-translucent-bg, .banner.parallax {padding-top: 40px;}
-	.main-container {padding: 0;}
+    header:not(.full-width) .logo img {margin: 8px 4px;}
+    header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 44px;}
+    .banner.dark-translucent-bg, .banner.default-translucent-bg, .banner.light-translucent-bg, .banner.parallax {padding-top: 40px;}
+    .main-container {padding: 0;}
     .clients .partner-image {height: 22px;}
+    .nv-preferred {max-width: 100%;}
 }
