@@ -540,10 +540,10 @@
 				navigationText: false
 			});
 			$(".owl-carousel.clients").owlCarousel({
-                items: 11,
+                items: 10,
                 autoPlay: !0,
                 pagination: !1,
-                itemsDesktop: [1024, 11],
+                itemsDesktop: [1024, 10],
                 itemsDesktopSmall: [992, 10],
                 itemsTablet: [767, 8],
                 itemsMobile: [479, 5]
