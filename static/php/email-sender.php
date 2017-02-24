@@ -3,7 +3,7 @@ session_cache_limiter('nocache');
 header('Expires: ' . gmdate('r', 0));
 header('Content-type: application/json');
 
-$Recipient = 'ekrem.seren@compecta.com'; // <-- Set your email here
+$Recipient = 'ekrem.seren@compecta.com,sasmaz@compecta.com,info@compecta.com'; // <-- Set your email here
 
 $subject = $_POST['subject'];
 
