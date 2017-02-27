@@ -1,16 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Yüksek Başarımlı Hesaplama Çözümleri{% endblock %}
-
-{% block breadcrumb %}
-			<div class="breadcrumb-container">
-				<div class="container">
-					<ol class="breadcrumb">
-						{% include "services.html" %}
-						<li class="active">Yüksek Başarımlı Hesaplama</li>
-					</ol>
-				</div>
-			</div>
-{% endblock %}
+{% block breadcrumbdropdown %}{% include "products.html" %}{% endblock %}
+{% block breadcrumbactive %}Yüksek Başarımlı Hesaplama{% endblock %}
 
 {% block slider %}
 			<!-- banner start -->

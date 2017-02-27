@@ -1,16 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Yapay Zeka & Derin Öğrenme Çözümleri"{% endblock %}
-
-{% block breadcrumb %}
-			<div class="breadcrumb-container">
-				<div class="container">
-					<ol class="breadcrumb">
-						{% include "services.html" %}
-						<li class="active">Yapay Zeka & Derin Öğrenme</li>
-					</ol>
-				</div>
-			</div>
-{% endblock %}
+{% block breadcrumbdropdown %}{% include "products.html" %}{% endblock %}
+{% block breadcrumbactive %}Yapay Zeka & Derin Öğrenme{% endblock %}
 
 {% block slider %}
 			<!-- banner start -->

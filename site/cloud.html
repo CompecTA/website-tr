@@ -1,16 +1,7 @@
 {% extends "base.html" %}
 {% block title %}Bulut Hesaplama{% endblock %}
-
-{% block breadcrumb %}
-			<div class="breadcrumb-container">
-				<div class="container">
-					<ol class="breadcrumb">
-						{% include "services.html" %}
-						<li class="active">Bulut Hesaplama</li>
-					</ol>
-				</div>
-			</div>
-{% endblock %}
+{% block breadcrumbdropdown %}{% include "services.html" %}{% endblock %}
+{% block breadcrumbactive %}Bulut Hesaplama{% endblock %}
 
 {% block slider %}
 			<!-- banner start -->
