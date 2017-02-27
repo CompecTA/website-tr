@@ -10,12 +10,12 @@
 	<meta name="description" content="Her türlü iş ve araştırma ihtiyaçları için güvenli, ölçeklenebilir, yüksek başarımlı, yüksek performanslı bilgisayar ve sanal üretken sistem ve ağ çözümleri geliştiriyoruz.">
     <meta name="keywords" content="hpc, high performance computing, yüksek başarımlı hesaplama, cloud computing, bulut bilişim, high speed computing, yüksek hızlı hesaplama, high technology computing, virtualization, sanallaştırma, network solutions, infiniband, nvidia grid, IT solutions,">
 	<meta name="author" content="compecta.com">
-
     <!-- Mobil Tarayıcı Rengi -->
     <meta name="theme-color" content="#1b75bc">
     <meta name="msapplication-navbutton-color" content="#1b75bc">
     <meta name="apple-mobile-web-app-status-bar-style" content="#1b75bc">
-
+    <!-- Website Dil Alternatifi -->
+	<link rel="alternate" hreflang="en" href="http://www.compecta.com/{% block hreflang %}index.html{% endblock %}">
 	<!-- Mobile Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Favicon -->
@@ -75,8 +75,8 @@
 									<div class="btn-group dropdown">
 										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>Dil Seçimi &nbsp;</button>
 										<ul class="dropdown-menu dropdown-animation">
-											<li class=""><a href="http://www.compecta.com.tr" hreflang="tr" class="btn disabled" role="button"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE <i class="fa fa-check"></i></a></li>
-											<li class=""><a href="http://www.compecta.com" hreflang="en"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH</a></li>
+											<li class=""><a href="#" hreflang="tr" class="btn disabled" role="button"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE <i class="fa fa-check"></i></a></li>
+											<li class=""><a href="http://www.compecta.com/{% block langlink %}index.html{% endblock %}" hreflang="en"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH</a></li>
 										</ul>
 									</div>
 								</div>
@@ -84,8 +84,8 @@
 									<div class="btn-group dropdown">
 										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>Dil Seçimi &nbsp;</button>
 										<ul class="dropdown-menu dropdown-animation">
-											<li class=""><a href="http://www.compecta.com.tr" hreflang="tr" class="btn disabled" role="button"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE <i class="fa fa-check"></i></a></li>
-											<li class=""><a href="http://www.compecta.com" hreflang="en"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH</a></li>
+											<li class=""><a href="#" hreflang="tr" class="btn disabled" role="button"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE <i class="fa fa-check"></i></a></li>
+											<li class=""><a href="http://www.compecta.com/{% block langlinkmobile %}index.html{% endblock %}" hreflang="en"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH</a></li>
 										</ul>
 									</div>
 								</div>
