@@ -4300,6 +4300,16 @@ fieldset[disabled] .form-control {
   -o-transition: none;
   transition: none;
 }
+/* BREADCRUMB second level menu item */
+.breadcrumb .dropdown-menu > li > a {
+  padding: 10px 10px;
+  font-size: 12px;
+  color: #666;
+  border-bottom: 1px solid #f7f7f7;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
 /* second level menu item on focus/hover and when opened */
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus,

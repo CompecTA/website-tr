@@ -222,7 +222,17 @@
 
 		<!-- breadcrumb start -->
 		<!-- ================ -->
-		{% block breadcrumb %}{% endblock %}
+		{% block breadcrumb %}
+			<div class="breadcrumb-container">
+				<div class="container">
+					<ol class="breadcrumb">
+					<li><i class="fa fa-home pr-10"></i><a href="index.html">Anasayfa</a></li>
+					{% block breadcrumbdropdown %}{% endblock %}
+					<li class="active">{% block breadcrumbactive %}{% endblock %}</li>
+					</ol>
+				</div>
+			</div>
+		{% endblock %}
 		<!-- breadcrumb end -->
 
 		<!-- slider start -->
