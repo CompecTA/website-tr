@@ -4432,6 +4432,11 @@ header .dropdown-menu > li.active > a i.fa-circle-o:before {
   color: #d1d1d1;
   font-size: 14px;
 }
+/* Breadcrumb Arrow kaldiralim
+------------------------------ */
+.breadcrumb .dropdown > a:before {
+  content: none !important;
+}
 .header.centered .dropdown > a:before {
   top: 18px;
 }
