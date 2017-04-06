@@ -24,7 +24,10 @@ mark,
   color: #ffffff;
 }
 .text-default {
-  color: #1b75bc;
+  color: #1b75bc !important;
+}
+.link-default {
+  color: #1b75bc !important;
 }
 .text-red {
   color: #cc3333;
