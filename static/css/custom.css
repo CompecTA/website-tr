@@ -103,7 +103,33 @@ bilgi@parstanitim.com
     margin-left: 0;
     margin-bottom: 20px;
 }
-
+.modal-header {
+    padding: 10px 15px;
+}
+.modal-footer {
+    padding: 5px 10px;
+}
+.modal-backdrop.in {
+  filter: alpha(opacity=75);
+  opacity: .75;
+}
+.modal-18mart {
+  background: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.modal-18mart .modal-header {
+    background: none;
+    border: none;
+    padding: none !important;
+}
+.modal-18mart .modal-body {
+  padding: 0 !important;
+}
+.modal-18mart .modal-footer {
+  padding: 0 !important;
+  border: none !important;
+}
 iframe {
     background: white!important;
 }
