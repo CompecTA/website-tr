@@ -1,0 +1,136 @@
+{% extends "base.html" %}
+{% block title %}BeeGFS - The Leading Parallel Cluster File System{% endblock %}
+{% block breadcrumbdropdown %}{% include "services.html" %}{% endblock %}
+{% block breadcrumbactive %}BeeGFS{% endblock %}
+{% block hreflang %}{% block langlinkmobile %}{% block langlink %}beegfs.html{% endblock %}{% endblock %}{% endblock %}
+{% block slider %}
+			<!-- banner start -->
+			<!-- ================ -->
+			<div class="banner dark-translucent-bg" style="background-image:url('images/banners/beegfs.jpg'); background-position: 50% 30%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 text-center col-md-offset-1 pv-20">
+							<h3 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">BeeGFS</h3>
+							<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="150"></div>
+							<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">The Leading Parallel Cluster File System</p>
+						</div>
+						<a href="http://www.beegfs.com/content/partners/" target="_blank"><img src="images/beegfs-goldpartner.png" class="beegfs-partner visible-lg visible-md"></a>
+					</div>
+				</div>
+			</div>
+			<!-- banner end -->
+{% endblock %}
+
+{% block content %}
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="full-width-section pv-40 border-clear">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<h3><strong>What</strong> is BeeGFS?</h3>
+									<div class="separator-2"></div>
+									<p><strong>BeeGFS</strong> <em>(formerly FhGFS - developed at the Fraunhofer Institute for Industrial Mathematics ITWM)</em> is the leading parallel cluster file system, developed with a strong focus on <strong>performance</strong> and designed for very <strong>easy installation</strong> and management. If I/O intensive workloads are your problem, BeeGFS is the solution.</p>
+								</div>
+								<div class="col-md-12">
+									<h3><strong>Why</strong> use BeeGFS?</h3>
+									<div class="separator-2"></div>
+									<p>BeeGFS <strong>transparently</strong> spreads user data across multiple servers. By increasing the number of servers and disks in the system, you can simply <strong>scale performance and capacity</strong> of the file system to the level that you need, seamlessly from small clusters up to enterprise-class systems with thousands of nodes.</p>
+								</div>
+								<div class="col-md-12">
+									<h3><strong>Get</strong> The Most Out Of Your Data</h3>
+									<div class="separator-2"></div>
+									<p>The flexibility, robustness, and outstanding performance ofBeeGFS help our customers around the globe to <strong>increase productivity</strong> by delivering results faster and by <strong>enabling newdata analysis methods</strong> that were not possible without the advantages of BeeGFS.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<img src="images/beegfs-architecture.jpg" alt="System Architecture">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section clearfix light-gray-bg pv-30">
+				<div class="container">
+					<div class="call-to-action shadow bordered">
+						<div class="row">
+							<div class="col-md-2">
+								<a href="http://www.beegfs.com/content/partners/" target="_blank"><img class="p10" src="images/beegfs-goldpartner.png" alt="BeeGFS Gold Partner"></a>
+							</div>
+							<div class="col-md-10">
+								<h3>Enterprise Level Support</h3>
+								<div class="separator-2"></div>
+								<div class="row">
+									<div class="col-md-9">
+										<p>CompecTA is the official <strong>BeeGFS Gold Partner in Turkey</strong>. Installation & Support is offered entirely by CompecTA, with the experience in performance optimizing Storage Solutions & HPC Clusters.</p>
+									</div>
+									<div class="col-md-3">
+										<a href="contact.html" class="btn btn-lg btn-default btn-animated">Learn More<i class="fa fa-arrow-right pl-20"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row mt-20">
+						<div class="col-md-6">
+							<h3><strong>Maximum</strong> Scalability</h3>
+							<div class="separator-2"></div>
+							<p>BeeGFS offers maximum performance and scalability on various levels. It supports <strong>distributed file contents</strong> with <strong>flexible striping</strong> across the storage servers on a by file or by directory base as well as <strong>distributed metadata.</strong></p>
+							<p>BeeGFS is optimized especially for use in environments <strong>where performance matters</strong> to provide:</p>
+							<ul>
+								<li><strong>Best in class client throughput:</strong> 8 GB/s with only a single process streaming on a 100GBit network, while a few streams can fully saturate the network.</li>
+								<li><strong>Best in class metadata performance:</strong> Linear scalability through dynamic metadata namespace partitioning.</li>
+								<li><strong>Best in class storage throughput:</strong> BeeGFS servers allow flexible choice of underlying file system to perfectly fit the given storage hardware. </li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h3><strong>Maximum</strong> Flexibility</h3>
+							<div class="separator-2"></div>
+							<p>BeeGFS supports a <strong>wide range of Linux distributions</strong> such as RHEL/Fedora, SLES/OpenSuse or Debian/Ubuntu as well as a wide range of Linux kernels from ancient 2.6.18 up to the latest vanilla. </p>
+							<p>The storage services run <strong>on top of an existing local filesystem</strong> (such as xfs, zfs or others) using the normal POSIX interface and clients and servers can be <strong>added to an existing system without downtime.</strong></p>
+							<p>BeeGFS supports <strong>multiple networks</strong> and dynamic failover in case one of the network connections is down. </p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="full-width-section pv-40">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<h5>Scientific Computing</h5>
+							<div class="separator-2"></div>
+							<p>BeeGFS is widely popular among universities and the global research community, powering some of the fastest supercomputers in the world to help scientists analyze large amounts of data efficiently every day.</p>
+						</div>
+						<div class="col-md-4">
+							<h5>Life Sciences</h5>
+							<div class="separator-2"></div>
+							<p>BeeGFS is the parallel file system of choice in life sciences. The fast growing amount of genomics data to store and analyze quickly in fields like Precision Medicine make BeeGFS the first choice for our customers.</p>
+						</div>
+						<div class="col-md-4">
+							<h5>Finance,Oil & Gas, Media, Automotive, ...</h5>
+							<div class="separator-2"></div>
+							<p>BeeGFS is used in many different industries all around the globe to provide fast access to storage systems of all kinds and sizes, from small scale up to enterprise-class systems with thousands of hosts.</p>
+						</div>
+						<div class="col-md-12">
+							<div class="clients text-center">
+								<img class="beegfs-image" src="images/references/beegfs/1.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/2.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/3.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/4.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/5.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/6.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/7.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/8.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/9.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/10.png" alt="">
+								<img class="beegfs-image" src="images/references/beegfs/11.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section end -->
+			{% include "getinfo.html" %}
+{% endblock %}
