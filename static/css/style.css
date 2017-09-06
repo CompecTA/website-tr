@@ -6682,7 +6682,7 @@ h6.media-heading {
 }
 .tp-bullets.preview4 .bullet,
 .tp-bullets.preview2 .bullet {
-  background: rgba(0, 0, 0, 0.6) !important;
+  background: rgba(255, 255, 255, 0.4) !important;
   border: none!important;
   width: 10px !important;
   height: 10px !important;
@@ -6696,7 +6696,7 @@ h6.media-heading {
 .tp-bullets.preview4 .bullet.selected,
 .tp-bullets.preview2 .bullet:hover,
 .tp-bullets.preview2 .bullet.selected {
-  background: #000000 !important;
+  background: #1b75bc !important;
   border: none!important;
   width: 10px !important;
   height: 10px !important;

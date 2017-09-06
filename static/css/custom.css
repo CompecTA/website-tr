@@ -7,6 +7,8 @@ bilgi@parstanitim.com
 .p10 {padding: 10px;}
 .p15 {padding: 15px;}
 .p20 {padding: 20px;}
+.mv-10 {margin: 0 10px;}
+.mv-20 {margin: 0 20px;}
 .text-indent {text-indent: 20px;}
 .site-slogan {padding: 0 10px 0;}
 .navbar-default .navbar-nav > li > a {font-size: 14px;}
@@ -58,6 +60,13 @@ bilgi@parstanitim.com
     margin: 5px;
     display: inline-block;
     opacity: 0.75;
+}
+.clients .beegfs-image {
+    text-align: center;
+    width: auto;
+    height: 30px;
+    margin: 10px 2px;
+    display: inline-block;
 }
 
 .footer {padding: 40px 0 20px 0;}
@@ -130,6 +139,62 @@ bilgi@parstanitim.com
   padding: 0 !important;
   border: none !important;
 }
+.beegfs-partner {
+    position: absolute;
+    right:0;
+    top:4px;
+    height: 120px;
+    width: auto;
+    border-radius: 8px;
+    box-shadow:0px 0px 40px #da942a;
+}
+.nvidia-partner {
+    position: absolute;
+    right:0;
+    top:25px;
+    height: 80px;
+    width: auto;
+    border-radius: 4px;
+    box-shadow:0px 0px 40px #76b900;
+}
+
+/*Button Badges*/
+.badge {
+  font-size: 10px; 
+}
+.button-badge {
+  position: absolute;
+  top: -7px;
+  right: 5px;
+  line-height: 14px;
+  width: 14px;
+  height: 14px;
+  border-radius: 20%;
+  font-size: 10px;
+  text-shadow: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.badge.badge-red {
+  background-color: #ee3333;
+}
+.badge.badge-default {
+  background-color: #1b75bc;
+}
+
+/*Blink Effect*/
+.blink {
+    animation: blink 2s steps(5, start) infinite;
+    -webkit-animation: blink 2s steps(5, start) infinite;
+}
+@keyframes blink {
+    to {visibility: hidden;}
+}
+@-webkit-keyframes blink {
+  to {visibility: hidden;}
+}
+
 iframe {
     background: white!important;
 }
@@ -138,14 +203,14 @@ iframe {
     .anamenu {float:right;}
 }
 @media(max-width:991px){
-    .fixed-header-on .header-left {padding:0;}
-    .main-container {padding: 10px 0;}
+	.fixed-header-on .header-left {padding:0;}
+	.main-container {padding: 10px 0;}
 }
 @media(max-width:767px){
-    header:not(.full-width) .logo img {margin: 8px 4px;}
-    header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 44px;}
-    .banner.dark-translucent-bg, .banner.default-translucent-bg, .banner.light-translucent-bg, .banner.parallax {padding-top: 40px;}
-    .main-container {padding: 0;}
+	header:not(.full-width) .logo img {margin: 8px 4px;}
+	header:not(.full-width) #logo_img {z-index: 102; position: absolute; max-height: 44px;}
+	.banner.dark-translucent-bg, .banner.default-translucent-bg, .banner.light-translucent-bg, .banner.parallax {padding-top: 40px;}
+	.main-container {padding: 0;}
     .clients .partner-image {height: 22px;}
     .nv-preferred {max-width: 100%;}
 }
