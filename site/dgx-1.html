@@ -49,8 +49,7 @@
 									<div class="separator-2"></div>
 									<p>Yüksek performanslı eğitim, üretkenliğinizi hızlandırır. Bu sayede öngörü ve pazara sunum süreleri kısalır.</p>
 								</div>
-								<div class="col-sm-6"><img class="space-bottom" alt="NVIDIA DGX-1 Performance" src="images/dgx1-34x-performance.jpg"></div>
-								<div class="col-sm-6"><img class="space-bottom" alt="NVIDIA DGX-1 Performance" src="images/dgx1-58x-faster-training.jpg"></div>
+								<div class="col-sm-12"><img class="space-bottom" alt="NVIDIA DGX-1 Performance" src="images/dgx-1-96x-faster.png"></div>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -58,64 +57,73 @@
 							<div class="separator-2"></div>
 							<table class="table table-colored small">
 								<tr>
-									<td>GPUs</td>
-									<td><strong>8x Tesla P100</strong></td>
+									<td></td>
+									<td class="text-center text-default"><small>NVIDIA DGX-1 with Tesla V100</small></td>
+									<td class="text-center text-default"><small>NVIDIA DGX-1 with Tesla P100</small></td>
 								</tr>
 								<tr>
-									<td>TFLOPS (GPU FP16 / CPU FP32)</td>
-									<td><strong>170/3</strong></td>
+									<td>GPUs</td>
+									<td class="text-center"><strong>8x Tesla V100</strong></td>
+									<td class="text-center"><strong>8x Tesla P100</strong></td>
+								</tr>
+								<tr>
+									<td>TFLOPS (FP16)</td>
+									<td class="text-center"><strong>960</strong></td>
+									<td class="text-center"><strong>170</strong></td>
 								</tr>
 								<tr>
 									<td>GPU Memory</td>
-									<td><strong>16 GB per GPU</strong></td>
+									<td colspan="2" class="text-center"><strong>128 GB total system</strong></td>
 								</tr>
 								<tr>
 									<td>CPU</td>
-									<td><strong>Dual 20-core Intel® Xeon®E5-2698 v4 2.2 GHz</strong></td>
+									<td colspan="2" class="text-center"><strong>Dual 20-core Intel® Xeon® E5-2698 v4 2.2 GHz</strong></td>
 								</tr>
 								<tr>
 									<td>NVIDIA CUDA® Cores</td>
-									<td><strong>28,672</strong></td>
+									<td class="text-center"><strong>40,960</strong></td>
+									<td class="text-center"><strong>28,672</strong></td>
 								</tr>
 								<tr>
-									<td>System Memory</td>
-									<td><strong>512 GB 2133 MHz DDR4</strong></td>
-								</tr>
-								<tr>
-									<td>Storage</td>
-									<td><strong>4x 1.92 TB SSD RAID 0</strong></td>
-								</tr>
-								<tr>
-									<td>Network</td>
-									<td><strong>Dual 10 GbE, 4 IB EDR</strong></td>
-								</tr>
-								<tr>
-									<td>Software</td>
-									<td><strong>Ubuntu Server Linux OS<br>DGX-1 Recommended GPU Driver</strong></td>
-								</tr>
-								<tr>
-									<td>System Weight</td>
-									<td><strong>60.8 kg / 134 lbs<br></strong></td>
-								</tr>
-								<tr>
-									<td>System Dimensions</td>
-									<td><strong>866 D x 444 W x 131 H (mm)</strong></td>
-								</tr>
-								<tr>
-									<td>Form Factor</td>
-									<td><strong>3U Rackmount</strong></td>
-								</tr>
-								<tr>
-									<td>Packing Dimensions</td>
-									<td><strong>1180 D x 730 W x 284 H (mm)</strong></td>
+									<td>NVIDIA Tensor Cores</td>
+									<td class="text-center"><strong>5,120</strong></td>
+									<td class="text-center"><strong>--</strong></td>
 								</tr>
 								<tr>
 									<td>Maximum Power Requirements</td>
-									<td><strong>3200W</strong></td>
+									<td colspan="2" class="text-center"><strong>3200W</strong></td>
+								</tr>
+								<tr>
+									<td>System Memory</td>
+									<td colspan="2" class="text-center"><strong>512 GB 2133 MHz DDR4 LRDIMM</strong></td>
+								</tr>
+								<tr>
+									<td>Storage</td>
+									<td colspan="2" class="text-center"><strong>4x 1.92 TB SSD RAID 0</strong></td>
+								</tr>
+								<tr>
+									<td>Network</td>
+									<td colspan="2" class="text-center"><strong>Dual 10 GbE, Up to 4 IB EDR</strong></td>
+								</tr>
+								<tr>
+									<td>Software</td>
+									<td colspan="2" class="text-center"><strong>Ubuntu Server Linux OS<br>DGX-1 Recommended Drivers</strong></td>
+								</tr>
+								<tr>
+									<td>System Weight</td>
+									<td colspan="2" class="text-center"><strong>60.8 kg / 134 lbs<br></strong></td>
+								</tr>
+								<tr>
+									<td>System Dimensions</td>
+									<td colspan="2" class="text-center"><strong>866 D x 444 W x 131 H (mm)</strong></td>
+								</tr>
+								<tr>
+									<td>Form Factor</td>
+									<td colspan="2" class="text-center"><strong>3U Rackmount</strong></td>
 								</tr>
 								<tr>
 									<td>Operating Temperature Range</td>
-									<td><strong>10 - 30°C</strong></td>
+									<td colspan="2" class="text-center"><strong>10 - 35°C</strong></td>
 								</tr>
 							</table>
 							<div class="hidden-sm">
@@ -141,14 +149,14 @@
 							<h5>Hızla ve Kolayca Dağıtın</h5>
 							<div class="separator-2"></div>
 							<p>Yenilikçi NVIDIA DGX-1 sistemi, saatler veya dakikalar içinde yeni bilgiler ve görüşler sunmak için büyük veri kümelerindeki modelleri açığa çıkarmanızı sağlar.</p>
-							<a class="link-default" target="_blank" href="http://images.nvidia.com/content/technologies/deep-learning/pdf/Datasheet-DGX1.pdf">Ürün Bilgileri (PDF)</a>
+							<a class="link-default" target="_blank" href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-1/dgx-1-ai-supercomputer-datasheet-v4.pdf">Ürün Bilgileri (PDF)</a>
 						</div>
 						<div class="col-sm-6 col-md-4">
 							<span class="space-top visible-xs visible-sm"></span>
 							<h5>Rekabette Öncü Olun</h5>
 							<div class="separator-2"></div>
 							<p>NVIDIA DGX-1, derin öğrenme eğitiminiz ve Yapay zekayla hızlandırılmış analiz iş yükleri için en hızlı çözümleri sunan yenilikçi teknolojilerle geliştirilmiştir.</p>
-							<a class="link-default" target="_blank" href="http://www.nvidia.com/object/dgx1-infographic.html">Veri grafiğine bakın</a>
+							<a class="link-default" target="_blank" href="https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/dgx-1/70029-dgx1-web-Infographic-21nov16-v03.pdf">Veri grafiği (PDF)</a>
 						</div>
 						<div class="col-sm-12 col-md-4">
 							<span class="space-top visible-xs visible-sm"></span>
@@ -157,10 +165,21 @@
 							<p>Verimliliği artırmak ve sistemin kapalı kalma süresini azaltmak için gerekli desteği alın. Donanım ve yazılım desteği, NVIDIA derin öğrenme uzmanlığına erişim sağlar; bulut yönetim hizmetleri, yazılım yükseltmeleri ve güncellemelerinin yanı sıra önemli sorunlarınızın öncelikli bir şekilde çözülmesini içerir.</p>
 							<a class="link-default" href="" data-toggle="modal" data-target="#SupportModal"> Destek Hakkında Daha Fazla Bilgi</a>
 						</div>
-						<div class="col-sm-12 col-md-4 col-md-offset-4">
-							<span class="space-top visible-xs visible-sm"></span>
-							<h5 class="text-center space-top">Hemen NVIDIA DGX-1 Siparişinizi Verin</h5>
-							<a href="contact.html" class="btn btn-default btn-lg btn-block btn-hvr hvr-shutter-out-horizontal margin-clear">SİPARİŞ VER</a>
+						<div class="col-sm-12 col-md-10 col-md-offset-1 space-bottom">
+							<div class="row">
+								<span class="space-top visible-xs visible-sm"></span>
+								<h3 class="text-center space-top">Hemen NVIDIA DGX-1 Siparişi Verin</h3>
+								<div class="separator"></div>
+								<p class="text-center">Dünyanın En Hızlı Yapay Zeka Derin Öğrenme Platformu NVIDIA® DGX-1™ V100 Edition <strong>Kiralama & Satın Alma</strong> seçenekleri ile Akademik ve Ticari Araştırmalar için hizmetinize sunulmuştur. Özel Akademik Fiyat mevcuttur, uygunluk şartları ve yasal hüküm ve koşullar için lütfen iletişime geçiniz.</p>
+								<div class="col-sm-5 col-sm-offset-1">
+									<span class="space-top visible-xs visible-sm"></span>
+									<a href="contact.html" class="btn btn-default btn-lg btn-block btn-hvr hvr-shutter-out-horizontal margin-clear">SATIN ALMA</a>
+								</div>
+								<div class="col-sm-5">
+									<span class="space-top visible-xs visible-sm"></span>
+									<a href="renting.html" class="btn btn-default btn-lg btn-block btn-hvr hvr-shutter-out-horizontal margin-clear"><span class="button-badge"><span class="badge badge-red">YENİ</span></span>KİRALAMA</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -185,7 +204,7 @@
 							<h5>DGX-1 Belgeleri</h5>
 							<div class="separator-2"></div>
 							<ul>
-								<li><a class="link-default" target="_blank" href="http://images.nvidia.com/content/technologies/deep-learning/pdf/DGX-1-UserGuide.pdf">DGX-1 Kullanım Kılavuzu</a></li>
+								<li><a class="link-default" target="_blank" href="http://images.nvidia.com/content/technologies/deep-learning/pdf/DGX-1-UserGuide.pdf">DGX-1 Kullanım Kılavuzu (PDF)</a></li>
 								<li><a class="link-default" target="_blank" href="http://www.nvidia.com.tr/object/dgx1-support-tr.html">NVIDIA DGX-1 Destek Sayfası</a></li>
 							</ul>
 						</div>
