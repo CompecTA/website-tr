@@ -41,7 +41,7 @@ html {
 body {
   font-size: 15px;
   line-height: 1.46666667;
-  color: #777777;
+  color: #333;
   background-color: #ffffff;
   font-weight: 300;
 }
@@ -188,6 +188,9 @@ a:active {
 .dark .footer .link-dark {
   color: #777777;
   text-decoration: none!important;
+}
+.dark .footer {
+  color: #777777;
 }
 .dark .footer .link-dark:hover {
   color: #777777;
