@@ -456,7 +456,7 @@ ul.pagination li.active a,
 .dropdown-menu .menu > .active > a,
 .dropdown-menu .menu > .active > a:hover,
 .dropdown-menu .menu > .active > a:focus {
-  background-color: #fcfcfc;
+  background-color: #f3f3f3;
   color: #207fca;
   border-color: #f7f7f7;
 }
@@ -471,7 +471,7 @@ header:not(.dark) .dropdown-menu > li.active > a i {
 /* mega menu menu item on focus/hover*/
 .mega-menu .menu > li > a:hover,
 .mega-menu .menu > li > a:focus {
-  background-color: #fcfcfc;
+  background-color: #f3f3f3;
   color: #207fca;
   border-color: #f7f7f7;
   text-decoration: none;

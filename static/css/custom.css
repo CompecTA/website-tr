@@ -179,6 +179,12 @@ bilgi@parstanitim.com
 .badge.badge-red {
   background-color: #ee3333;
 }
+.badge.badge-green {
+  background-color: #3cb371;
+}
+.badge.badge-orange {
+  background-color: #ffa500;
+}
 .badge.badge-default {
   background-color: #1b75bc;
 }
