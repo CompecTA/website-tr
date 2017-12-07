@@ -98,6 +98,10 @@ bilgi@parstanitim.com
     min-height: 80px; 
 }
 
+.bestfor small{
+    text-decoration: underline;
+}
+
 .freebirdFormviewerViewFormBanner {
     background-color: white!important;
     display: none!important;
@@ -156,6 +160,16 @@ bilgi@parstanitim.com
     width: auto;
     border-radius: 4px;
     box-shadow:0px 0px 40px #76b900;
+}
+
+.text-red {
+  color: #ee3333;
+}
+.text-green {
+  color: #3cb371;
+}
+.text-orange {
+  color: #ffa500;
 }
 
 /*Button Badges*/
