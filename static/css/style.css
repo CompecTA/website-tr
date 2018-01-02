@@ -4298,7 +4298,7 @@ fieldset[disabled] .form-control {
   padding: 10px 20px;
   font-size: 14px;
   color: #333333;
-  border-bottom: 1px solid #f7f7f7;
+  border-bottom: 1px solid #eee;
   -webkit-transition: none;
   -o-transition: none;
   transition: none;
@@ -4375,7 +4375,7 @@ header.full-width .dropdown-menu .dropdown-menu.to-left {
 .mega-menu .menu > li > a {
   padding: 5px 0;
   font-size: 14px;
-  color: #333333;
+  color: #111;
   border-bottom: 1px solid #f7f7f7;
   display: block;
   -webkit-transition: none;
