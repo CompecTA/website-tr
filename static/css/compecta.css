@@ -477,7 +477,8 @@ header:not(.dark) .dropdown-menu > li.active > a i {
   text-decoration: none;
 }
 .mega-menu .menu > li > a {
-  border-bottom: 1px dotted #ddd;
+  border-bottom: 1px dotted #bbb;
+  color: #000;
 }
 /* Arrow for parent menu item 
 ------------------------------ */
