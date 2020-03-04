@@ -460,6 +460,11 @@ ul.pagination li.active a,
   color: #207fca;
   border-color: #f7f7f7;
 }
+}
+.dropdown-menu > li > a {
+  border-bottom: 1px dotted #bbb;
+  color: #000;
+}
 /* Mega Menu 
 ------------------------------ */
 header:not(.dark) .mega-menu .menu > li > a:hover i,
