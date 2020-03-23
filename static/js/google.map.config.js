@@ -1,33 +1,23 @@
-(function($){
-	$(document).ready(function(){
+// Google Maps
+//-----------------------------------------------
+var marker;
 
-		// Google Maps
-		//-----------------------------------------------
-		if ($("#map-canvas").length>0) {
-			var map, myLatlng, myZoom, marker;
-			// Set the coordinates of your location
-			myLatlng = new google.maps.LatLng(40.995875, 29.137558);
-			myZoom = 14;
-			function initialize() {
-				var mapOptions = {
-					zoom: myZoom,
-					mapTypeId: google.maps.MapTypeId.ROADMAP,
-					center: myLatlng,
-					scrollwheel: false
-				};
-				map = new google.maps.Map(document.getElementById("map-canvas"),mapOptions);
-				marker = new google.maps.Marker({
-					map:map,
-					draggable:false,
-					animation: google.maps.Animation.DROP,
-					position: myLatlng
-				});
-				google.maps.event.addDomListener(window, "resize", function() {
-					map.setCenter(myLatlng);
-				});
-			}
-			google.maps.event.addDomListener(window, "load", initialize);
-		}
-	}); // End document ready
+function initMap() {
+  var myLatlng = {lat: 40.995875, lng: 29.137558};
 
-})(this.jQuery);		
+  var map = new google.maps.Map(document.getElementById('map-canvas'), {
+    zoom: 11,
+    center: myLatlng
+  });
+
+  marker = new google.maps.Marker({
+    map: map,
+    animation: google.maps.Animation.DROP,
+    position: {lat: 40.995875, lng: 29.137558}
+  });
+
+  marker.addListener('click', function() {
+    map.setZoom(16);
+    map.setCenter(marker.getPosition());
+  });
+} // End document ready
