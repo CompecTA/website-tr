@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}COVID-19 Coronavirüs Salgını{% endblock %}
+{% block breadcrumbactive %}COVID-19 Coronavirüs Duyurusu{% endblock %}
+{% block hreflang %}{% block langlinkmobile %}{% block langlink %}covid.html{% endblock %}{% endblock %}{% endblock %}
+{% block slider %}
+			<!-- banner start -->
+			<!-- ================ -->
+			<div class="banner dark-translucent-bg" style="background-image:url('images/banners/covid-19.jpg'); background-position: 50% 25%;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10 text-center col-md-offset-1 pv-20">
+							<h3 class="title object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">COVID-19 karşı savaş</h3>
+							<div class="separator object-non-visible mt-10" data-animation-effect="fadeIn" data-effect-delay="150"></div>
+							<p class="text-center object-non-visible" data-animation-effect="fadeIn" data-effect-delay="200">FeynmanGrid HPC Sistemimiz, Koronavirüs vakalarının iyileştirilmesi ve salgının sonlanması yönündeki çalışmalar için, talepte bulunan uzmanların kullanımına açıktır</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- banner end -->
+{% endblock %}
+
+{% block content %}
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="full-width-section pv-40 border-clear">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="row">
+								<div class="col-md-12">
+									<h3><strong>COVID-19 Araştırmacılarına ücretsiz HPC erişimi!</strong></h3>
+									<div class="separator-2"></div>
+									<p>Coronavirus (COVID-19) 'a karşı çalışma yapan tüm araştırmacılara,</p>
+									<p>CompecTA olarak HPC Cluster (Yüksek Başarımlı Hesaplama Kümesi) ve kaynaklarımızı siz değerli araştırmacılarla ücretsiz olarak sunmaktayız. Birçok akademisyen ve araştırmacıya uzun süredir hizmet veren CompecTA FeynmanGrid HPC Sistemimizi, Coronovirus çalışmaları yapan tüm araştırmacılara ücretsiz olarak açtığımızı belirtmek isteriz. Yeni Coronavirüs araştırmalarında size yardımcı olmaktan ve çözüm arayışınızda destek olabilmekten memnuniyet duyarız.</p>
+									<p>HPC uzmanlarımız size uygulama düzeyinde destek sağlayacak ve uygulama kurulumları, sistem kullanımı, iş komutu hazırlama ve iş çalıştırma konularında size yardımcı olacaktır. Bu sayede salgını durdurma yönündeki araştırmalarınıza odaklanmanıza olanak sağlayacağız.</p>
+								</div>
+								<div class="col-md-12">
+									<h3><strong>Evde kal, Evden çalış!</strong></h3>
+									<div class="separator-2"></div>
+									<p>Süper bilgisayarlara uzaktan erişim sayesinde araştırmacılar, kaynaklara uzaktan erişerek araştırmalarını yaparken evde güvende kalabilirler.</p>
+									<p>Ücretsiz YBH erişimi için lütfen bizimle iletişime geçin.</p>
+									<a href="mailto:info@compecta.com" class="btn btn-lg btn-default btn-animated">Bize Ulaşın<i class="fa fa-arrow-right pl-20"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<img class="mt-20" src="images/mail-feynmangrid-banner.jpg" alt="System Architecture">
+							<img class="mt-20" src="images/coronavirus-structure.jpg" alt="System Architecture">
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- section end -->
+			{% include "getinfo.html" %}
+{% endblock %}
