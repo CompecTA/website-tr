@@ -189,6 +189,23 @@ fieldset[disabled] .btn-default {
   background-color: #ffffff;
   border-color: #ffffff;
 }
+/*Red Button*/
+.btn-red {
+  color: #777777;
+  background-color: red;
+  border-color: red;
+  font-weight: bold;
+}
+.btn-red:hover,
+.btn-red:focus,
+.btn-red.focus,
+.btn-red:active,
+.btn-red.active,
+.open > .dropdown-toggle.btn-red {
+  color: white;
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
 /*Background Transition*/
 .hvr-sweep-to-right:hover,
 .hvr-sweep-to-left:hover,
@@ -459,7 +476,6 @@ ul.pagination li.active a,
   background-color: #f3f3f3;
   color: #207fca;
   border-color: #f7f7f7;
-}
 }
 .dropdown-menu > li > a {
   border-bottom: 1px dotted #bbb;
