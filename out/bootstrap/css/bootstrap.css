@@ -3524,7 +3524,6 @@ tbody.collapse.in {
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 990;
 }
 .pull-right > .dropdown-menu {
   right: 0;

@@ -4610,6 +4610,9 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
 @media (max-width: 767px) {
   /* Mobile menu
 	------------------------------ */
+  .mega-menu .dropdown-menu {
+    padding: 10px 10px;
+  }
   /* active item */
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
@@ -4641,7 +4644,7 @@ header.full-width .animated.main-navigation .dropdown-menu .open .dropdown-menu.
   /* second level item */
   .navbar-default .navbar-nav .open .dropdown-menu > li > a,
   .navbar-default .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 12px 15px 12px 40px;
+    padding: 12px 15px 12px 15px;
     color: #333333;
     border-color: #f9f9f9;
   }
