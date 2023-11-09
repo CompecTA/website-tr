@@ -595,7 +595,24 @@
 				</div>
 			</section>
 			<!-- section end -->
-
+			<div class="modal fade" id="10KasimModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+				<div class="modal-dialog modal-lg">
+					<div class="modal-content modal-18mart">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Kapat</span></button>
+							<h4 class="modal-title hidden-xs" id="myLargeModalLabel">Sevgi, Saygı ve Özlemle Anıyoruz!</h4>
+							<h4 class="modal-title visible-xs" id="myLargeModalLabel">Sevgi, Saygı ve Özlemle Anıyoruz!</h4>
+						</div>
+						<div class="modal-body">
+							<img class="hidden-xs hidden-sm" src="images/10kasim-banner.jpg">
+							<img class="visible-xs visible-sm" src="images/10kasim-banner-mobile.jpg">
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-sm btn-danger" data-dismiss="modal">Kapat</button>
+						</div>
+					</div>
+				</div>
+			</div>
 			{% include "getinfo.html" %}
 {% endblock %}
 {% block extrajs %}
@@ -604,4 +621,10 @@
 	<!-- jQuery Revolution Slider  -->
 	<script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
 	<script type="text/javascript" src="plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript">
+		$(window).load(function()
+		{
+		    $('#10KasimModal').modal('show');
+		});
+	</script>
 {% endblock %}
