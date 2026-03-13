@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="tr">
+	<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>CompecTA | NVIDIA DGX A100 Evrensel Yapay Zeka Sistemi</title>
+	<meta name="description" content="Her türlü iş ve araştırma ihtiyaçları için güvenli, ölçeklenebilir, yüksek başarımlı, yüksek performanslı bilgisayar ve sanal üretken sistem ve ağ çözümleri geliştiriyoruz.">
+    <meta name="keywords" content="hpc, high performance computing, yüksek başarımlı hesaplama, cloud computing, bulut bilişim, high speed computing, yüksek hızlı hesaplama, high technology computing, virtualization, sanallaştırma, network solutions, infiniband, nvidia grid, IT solutions,">
+	<meta name="author" content="compecta.com">
+    <!-- Mobil Tarayıcı Rengi -->
+    <meta name="theme-color" content="#1b75bc">
+    <meta name="msapplication-navbutton-color" content="#1b75bc">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#1b75bc">
+    <!-- Website Dil Alternatifi -->
+	<link rel="alternate" hreflang="en" href="//www.compecta.com/dgx-a100.html">
+	<!-- Mobile Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/apple-touch-icon-144x144.png">
+	<!-- Web Fonts -->
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='//fonts.googleapis.com/css?family=PT+Serif&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<!-- Bootstrap core CSS -->
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome CSS -->
+	<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Fontello CSS -->
+	<link href="fonts/fontello/css/fontello.min.css" rel="stylesheet">
+	<!-- Plugins -->
+	<link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
+	<link href="plugins/rs-plugin/css/settings.min.css" rel="stylesheet">
+	<link href="css/animations.css" rel="stylesheet">
+	<link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+	<link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+	<link href="plugins/hover/hover-min.css" rel="stylesheet">
+	<link href="plugins/morphext/morphext.css" rel="stylesheet">
+	<!-- CompecTA CSS file -->
+	<link href="css/style.css" rel="stylesheet" >
+	<link href="css/compecta.css" rel="stylesheet" >
+	<link href="css/custom.css" rel="stylesheet">
+</head>
+
+<body class="no-trans front-page ">
+
+	<!-- scrollToTop -->
+	<!-- ================ -->
+	<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+	<!-- page wrapper start -->
+	<!-- ================ -->
+	<div class="page-wrapper">
+
+		<!-- header-container start -->
+		<div class="header-container">
+
+			<!-- header-top start -->
+			<!-- ================ -->
+			<div class="header-top dark ">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-4 col-sm-5">
+							<!-- header-top-first start -->
+							<!-- ================ -->
+							<div class="header-top-first clearfix">
+								<div class="social-links hidden-xs small">
+									<div class="btn-group dropdown">
+										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>Language</button>
+										<ul class="dropdown-menu dropdown-animation">
+											<li class=""><a href="#" hreflang="tr" class="btn disabled" role="button"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE <i class="fa fa-check"></i></a></li>
+											<li class=""><a href="//www.compecta.com/dgx-a100.html" hreflang="en"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH</a></li>
+											<li class=""><a href="//www.compecta.de/dgx-a100.html"><img alt="Deutsch" src="images/de.jpg" class="bayrak"> DEUTSCH</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="social-links hidden-lg hidden-md hidden-sm small">
+									<div class="btn-group dropdown">
+										<button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><i class="fa fa-globe"></i>Language</button>
+										<ul class="dropdown-menu dropdown-animation">
+											<li class=""><a href="#" hreflang="tr" class="btn disabled" role="button"><img alt="Türkçe" src="images/tr.jpg" class="bayrak"> TÜRKÇE <i class="fa fa-check"></i></a></li>
+											<li class=""><a href="//www.compecta.com/dgx-a100.html" hreflang="en"><img alt="English" src="images/en.jpg" class="bayrak"> ENGLISH</a></li>
+											<li class=""><a href="//www.compecta.de/dgx-a100.html"><img alt="Deutsch" src="images/de.jpg" class="bayrak"> DEUTSCH</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<!-- header-top-first end -->
+						</div>
+						<div class="col-xs-8 col-sm-7">
+
+							<!-- header-top-second start -->
+							<!-- ================ -->
+							<div id="header-top-second"  class="clearfix text-right">
+								<ul class="list-inline">
+									<li><i class="fa fa-phone pr-5 pl-10"></i>+90 216 455-1865</li>
+									<li><i class="fa fa-envelope pr-5 pl-10"></i><a href="mailto:info@compecta.com">info@compecta.com</a></li>
+								</ul>
+							</div>
+							<!-- header-top-second end -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- header-top end -->
+
+			<!-- header start -->
+			<!-- ================ --> 
+			<header class="header fixed clearfix">
+				
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-9 col-sm-12 col-md-2">
+							<!-- header-left start -->
+							<!-- ================ -->
+							<div class="header-left clearfix">
+
+								<!-- logo -->
+								<div id="logo" class="logo">
+									<a href="index.html"><img id="logo_img" src="images/compecta-logo.png" alt="CompecTA"></a>
+								</div>
+								
+							</div>
+							<!-- header-left end -->
+						</div>
+						<div class="col-sm-12 col-md-10">
+							<!-- header-right start -->
+							<!-- ================ -->
+							<div class="header-right clearfix">
+								
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+									<!-- navbar start -->
+									<!-- ================ -->
+									<nav role="navigation" class="navbar navbar-default">
+										<div class="container-fluid">
+
+											<!-- Toggle get grouped for better mobile display -->
+											<div class="navbar-header">
+												<button data-target="#navbar-collapse-1" data-toggle="collapse" class="navbar-toggle" type="button">
+													<span class="sr-only">Toggle navigation</span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+													<span class="icon-bar"></span>
+												</button>
+												
+											</div>
+
+											<!-- Collect the nav links, forms, and other content for toggling -->
+											<div id="navbar-collapse-1" class="collapse navbar-collapse">
+												<!-- main-menu -->
+												<ul class="nav navbar-nav anamenu">
+													<li class="visible-xs">
+														<a href="index.html">Anasayfa</a>
+													</li>
+													<li class="hidden-xs">
+														<a href="index.html"><i class="fa fa-home"></i></a>
+													</li>
+													<!-- products mega-menu start -->
+													<li class="dropdown  mega-menu">
+														<a href="#" class="dropdown-toggle" data-toggle="dropdown">Ürünler</a>
+														<ul class="dropdown-menu">
+															<li>
+																<div class="row">
+																	<div class="col-md-12">
+																		<div class="row">
+																			<div class="col-md-6">
+																			<h4 class="title text-default">CompecTA Derin Öğrenme & Yapay Zeka Sitemleri</h4>
+																				<div class="divider"></div>
+																				<ul class="menu">
+																					<li><a href="novamini.html"><i class="icon-right-open pr-10"></i>CompecTA Nova Engine Mini&trade; <sup class="badge badge-default">YENİ</sup><br><small>2x NVIDIA<sup>&reg;</sup> GPU içeren Mini Derin Öğrenme Bilgisayarı</small></a></li>
+																					<li><a href="nova.html"><i class="icon-right-open pr-10"></i>CompecTA Nova Engine&trade; <sup class="badge badge-orange">POPÜLER</sup><br><small>4x NVIDIA<sup>&reg;</sup> GPU içeren Derin Öğrenme ve Yapay Zeka Bilgisayarı</small></a></li>
+																					<li><a href="supernova.html"><i class="icon-right-open pr-10"></i>CompecTA SuperNova Engine&trade;<br><small>Yapay Zeka için Ölçeklenebilir Derin Öğrenme Sunucu Sistemleri</small></a></li>
+																					<li><a href="supernovax.html"><i class="icon-right-open pr-10"></i>CompecTA SuperNova Engine X&trade; <sup class="badge badge-default">YENİ</sup><br><small>10x GPU içeren  Ölçeklenebilir Sunucu Sistemleri</small></a></li>
+																				</ul>
+																			<h4 class="title text-default space-top">NVIDIA DGX Sistemleri</h4>
+																			<div class="divider"></div>
+																				<ul class="menu">
+																					<li><a href="dgx-h100.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX H100 <sup class="badge badge-default">YENİ</sup><br><small>Kurumsal Yapay Zeka Çözümü</small></a></li>
+																					<li><a href="dgx-a100.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX A100 <sup class="badge badge-orange">ÖZEL</sup><br><small>Evrensel Yapay Zeka Sistemi</small></a></li>
+																					<li><a href="dgxstation-a100.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX Station A100 <sup class="badge badge-orange">ÖZEL</sup><br><small>AI Çalışma Grubu Çözümü</small></a></li>
+																					<!-- <li><a href="dgx-1.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX-1 <br><small>The Fastest Path to Deep Learning!</small></a></li>
+																					<li><a href="dgxstation.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX Station <br><small>Personal AI Supercomputer</small></a></li> -->
+																				</ul>
+																			</div>
+																			<div class="col-md-6">
+																			<span class="visible-xs">&nbsp;</span>
+																			<h4 class="title text-default">Yüksek Başarımlı Hesaplama Sistemleri</h4>
+																				<div class="divider"></div>
+																				<ul class="menu">
+																					<li><a href="feynmangrid.html"><i class="icon-right-open pr-10"></i>FeynmanGrid&trade;<br><small>CompecTA'nın On-Demand YBH Çözümü</small></a></li>
+																					<li><a href="feynmanstorz.html"><i class="icon-right-open pr-10"></i>FeynmanStor Z&trade;<br><small>Küçük YBH Kümeleri için Esnek ve Hızlı Dosya Sistemi!</small></a></li>
+																					<li><a href="starterpack.html"><i class="icon-right-open pr-10"></i>HPC Starter Pack<br><small>Küçük/Orta Ölçekli Kümeler için Başlangıç Seviyesi YBH Modülleri</small></a></li>
+																				</ul>
+																			<!-- <h4 class="title text-default space-top">CompecTA Özel Çözümleri</h4>
+																				<div class="divider"></div>
+																				<ul class="menu">
+																					<li><a href="nebula.html"><i class="icon-right-open pr-10"></i>CompecTA Nebula&trade; MD Molecular Dynamics <sup class="badge badge-default">YENİ</sup><br><small>GROMACS, AMBER, NAMD ve LAMMPS için Özelleşmiş MD Sistemleri</small></a></li>
+																					<li><a href="jupiter-drive-agx.html"><i class="icon-right-open pr-10"></i>CompecTA Jupiter&trade; Drive AGX Storage<br><small>NVIDIA Drive Sistemleri için Ölçeklenebilir Depolama Çözümü</small></a></li>
+																					<li><a href="liquidcooling.html"><i class="icon-right-open pr-10"></i>CompecTA Sıvı Soğutma Sistemleri <sup class="badge badge-default">YENİ</sup><br><small>Düşük Sıcaklıklar ve Düşük Gürültü Seviyeleri ile Yüksek Performans</small></a></li>
+																					<li><a href="immersedcooling.html"><i class="icon-right-open pr-10"></i>CompecTA Immersed Cooling Çözümleri <sup class="badge badge-red">YAKINDA</sup><br><small>Sıfır Gürültü ile Daha Fazla Güç ve Soğutma Verimliliği</small></a></li>
+																				</ul> -->
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</li>
+														</ul>
+													</li>
+													<!-- products mega-menu end -->
+													<li class="dropdown ">
+														<a href="#" data-toggle="dropdown" class="dropdown-toggle">Çözümler</a>
+														<ul class="dropdown-menu">
+															<li><a href="hpc.html"><i class="icon-right-open pr-10"></i>Yüksek Başarımlı Hesaplama Çözümleri<br><small>20 Yıllık Tecrübemizle Tasarladığımız YBH Çözümleri</small></a></li>
+															<li><a href="deeplearning.html"><i class="icon-right-open pr-10"></i>Yapay Zeka ve Derin Öğrenme Çözümleri<br><small>Paket Çözümler ve Kişiye Özel Hizmetler</small></a></li>
+															<li><a href="beegfs.html"><i class="icon-right-open pr-10"></i>BeeGFS Dosya Sistemi Çözümleri <sup class="badge badge-default">YENİ</sup><br><small>Lider Paralel Küme Dosya Sistemi</small></a></li>
+															<li><a href="renting.html"><i class="icon-right-open pr-10"></i>CompecTA Kiralama Çözümleri <sup class="badge badge-default">YENİ</sup><br><small>Yatırımınızı Azaltın & Verimliliğinizi Artırın</small></a></li>
+															<li><a href="cloud.html"><i class="icon-right-open pr-10"></i>Bulut Hizmetleri<br><small>YBH Uzmanlarından Profesyonel Bulut Hizmetleri</small></a></li>
+															<li><a href="virtualization.html"><i class="icon-right-open pr-10"></i>Sanallaştırma & vGPU<br><small>Sanallaştırmada Yeni Olanaklar</small></a></li>
+														</ul>
+													</li>
+													<li>
+														<a href="partners.html">Çözüm Ortakları</a>
+													</li>
+													<li>
+														<a href="references.html">Referanslar</a>
+													</li>
+													<li>
+														<a href="about.html">Hakkımızda</a>
+													</li>
+													<li>
+														<a href="contact.html">İletişim</a>
+													</li>
+												</ul>
+
+											</div>
+
+										</div>
+									</nav>
+									<!-- navbar end -->
+
+								</div>
+							<!-- main-navigation end -->
+							</div>
+							<!-- header-right end -->
+
+						</div>
+					</div>
+				</div>
+
+			</header>
+			<!-- header end -->
+		</div>
+		<!-- header-container end -->
+
+		<!-- breadcrumb start -->
+		<!-- ================ -->
+		
+			<div class="breadcrumb-container">
+				<div class="container">
+					<ol class="breadcrumb">
+					<li><i class="fa fa-home pr-10"></i><a href="index.html">Anasayfa</a></li>
+					<li class="dropdown">
+						<a href="#" data-toggle="dropdown" class="dropdown-toggle">Ürünler</a>
+						<ul class="dropdown-menu">
+							<li><a href="novamini.html"><i class="icon-right-open pr-10"></i>CompecTA Nova Engine Mini</a></li>
+							<li><a href="nova.html"><i class="icon-right-open pr-10"></i>CompecTA Nova Engine</a></li>
+							<li><a href="supernova.html"><i class="icon-right-open pr-10"></i>CompecTA SuperNova Engine</a></li>
+							<li><a href="supernovax.html"><i class="icon-right-open pr-10"></i>CompecTA SuperNova Engine X</a></li>
+							<li><a href="dgx-h100.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX H100</a></li>
+							<li><a href="dgx-a100.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX A100</a></li>
+							<li><a href="dgxstation-a100.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX Station A100</a></li>
+							<!-- <li><a href="nebula.html"><i class="icon-right-open pr-10"></i>CompecTA Nebula&trade; MD</a></li> -->
+							<li><a href="dgx-1.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX-1</a></li>
+							<li><a href="dgxstation.html"><i class="icon-right-open pr-10"></i>NVIDIA<sup>&reg;</sup> DGX Station</a></li>
+							<li><a href="feynmangrid.html"><i class="icon-right-open pr-10"></i>FeynmanGrid</a></li>
+							<li><a href="feynmanstorz.html"><i class="icon-right-open pr-10"></i>FeynmanStor Z</a></li>
+							<li><a href="starterpack.html"><i class="icon-right-open pr-10"></i>YBH Başlangıç Paketi</a></li>
+						</ul>
+					</li>
+					<li class="active">NVIDIA DGX&trade; A100</li>
+					</ol>
+				</div>
+			</div>
+		
+		<!-- breadcrumb end -->
+
+		<!-- slider start -->
+		<!-- ============ -->
+		
+			<!-- banner start -->
+			<!-- ================ -->
+			<div class="banner pv-40" style="background-image:url('images/banners/dgx-a100-2.jpg'); background-position: 55% 75%;">
+				<div class="container pv-40">
+					<div class="row">
+						<div class="col-md-12 pv-20">
+							<h2 class="title text-white object-non-visible" data-animation-effect="fadeIn" data-effect-delay="100">NVIDIA DGX&trade; A100</h2>
+							<p class="object-non-visible lead" data-animation-effect="fadeIn" data-effect-delay="200">Evrensel Yapay Zeka Sistemi</p>
+							<div class="pv-20">
+								<a href="contact.html" class="btn btn-default btn-hvr hvr-shutter-out-horizontal margin-clear">SATIN ALMA</a>
+								<a href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-datasheet.pdf" class="btn btn-dark btn-hvr hvr-shutter-out-horizontal margin-clear" target="_blank">ÜRÜN BROŞÜRÜ</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- banner end -->
+
+		<!-- slider end -->
+
+		<!-- main-container start -->
+		<!-- ==================== -->
+		
+			<!-- section start -->
+			<!-- ================ -->
+			<section class="full-width-section pv-40 border-clear">
+				<div class="container text-center">
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="pv-30">
+								<h2 class="text-default">NVIDIA A100 BARINDIRAN DÜNYANIN İLK YAPAY ZEKA SİSTEMİ</h2>
+								<div class="separator"></div>
+								<p class="lead">NVIDIA DGX™ A100, dünyanın ilk 5 petaFLOPS AI sisteminde benzeri görülmemiş bir işlem performansı ve esneklik sunan tüm AI iş yükleri için evrensel bir sistemdir. NVIDIA DGX A100, dünyanın en gelişmiş hızlandırıcısı olan NVIDIA A100 Tensor Core GPU'ya sahiptir ve kuruluşların Yapay Zeka Eğitim, Çıkarım ve Analizleri için NVIDIA AI uzmanlarına doğrudan erişim içeren birleşik, kurulumu kolay bir AI altyapısında birleştirmesini sağlar.</p>
+							</div>
+							<iframe frameborder="0" name="1645679168727" allow="allowfullscreen" src="https://www.youtube.com/embed/MY7jZGZw9vA" class="youtube-video" allowfullscreen></iframe>
+						</div>
+					</div><!-- /row -->  
+
+				</div><!-- /container -->
+			</section>
+			<section class="light-gray-bg border-top">
+				<div class="container pv-30">
+
+					<div class="row">
+						<div class="col-md-12 space-bottom">
+							<h2 class="text-center text-default">AI VERİ MERKEZİ İÇİN TEMEL YAPI TAŞI</h2>
+							<div class="separator"></div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="imgwidth"><img alt="" src="images/dgx-a100-benefits-1.svg"></div>
+							<h5 class="mt-20">HER AI İŞ YÜKÜ İÇİN EVRENSEL SİSTEM</h5>
+							<div class="separator-2"></div>
+							<p>NVIDIA DGX A100, analitikten eğitime ve çıkarıma kadar tüm Yapay Zeka altyapısı için evrensel bir sistemdir. 5 petaFLOPS yapay zeka performansını 6U form faktörüne sığdırarak, eski altyapı silolarını her yapay zeka iş yükü için tek bir platformla değiştirerek veri merkezei yoğunluğu için yeni bir çıta oluşturuyor.</p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="imgwidth"><img alt="" src="images/dgx-a100-benefits-2.svg"></div>
+							<h5 class="mt-20">DGXPERTS: AI UZMANLARINA DOĞRUDAN ERİŞİM</h5>
+							<div class="separator-2"></div>
+							<p><a href="https://www.nvidia.com/en-us/data-center/dgxperts" class="text-default" target="_blank">NVIDIA DGXperts</a>, DGX yatırımınızın değerini en üst düzeye çıkarmanıza yardımcı olmak için son on yılda zengin bir deneyime sahip 16.000'den fazla Yapay Zeka uzmanlarından oluşan küresel bir ekiptir.<br>&nbsp; <br>&nbsp; <br>&nbsp;</p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="imgwidth"><img alt="" src="images/dgx-a100-benefits-3.svg"></div>
+							<h5 class="mt-20">ÇÖZÜME GİDEN EN HIZLI YOL <br>&nbsp;</h5>
+							<div class="separator-2"></div>
+							<p>NVIDIA DGX A100, NVIDIA A100 Tensor Core GPU üzerine kurulu dünyanın ilk yapay zeka sistemidir. Sekiz A100 GPU'yu 640 GB'a kadar GPU belleğiyle entegre eden sistem, benzeri görülmemiş bir hızlanma sağlar ve <a href="https://www.nvidia.com/en-us/technologies/cuda-x/" class="text-default">NVIDIA CUDA-X<sup>™</sup></a> yazılımı ve uçtan uca <a href="https://www.nvidia.com/en-us/data-center/solutions/" class="text-default" target="_blank">NVIDIA Datacenter</a> çözüm yığını için tamamen optimize edilmiştir.</p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="imgwidth"><img alt="" src="images/dgx-a100-benefits-4.svg"></div>
+							<h5 class="mt-20">EŞSİZ VERİ MERKEZİ SEVİYESİ ÖLÇEKLENEBİLİRLİK</h5>
+							<div class="separator-2"></div>
+							<p>NVIDIA DGX A100, saniyede 500 gigabayt (GB/sn) hızında en yüksek çift yönlü bant genişliğine sahip Mellanox ConnectX-6 VPI HDR InfiniBand/Ethernet ağ adaptörlerine sahiptir. Bu, DGX A100'ü, ölçeklenebilir yapay zeka altyapısı için kurumsal çözümümü olan <a href="https://www.nvidia.com/en-us/data-center/resources/nvidia-dgx-superpod-reference-architecture/" target="_blank" lass="text-default">NVIDIA DGX SuperPOD<sup>™</sup></a> gibi büyük yapay zeka kümeleri için temel yapı taşı yapan birçok özellikten biridir.</p>
+						</div>
+					</div><!-- /row -->  
+
+				</div><!-- /container -->
+			</section>
+			<section class="full-width-section pv-40 border-clear">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12 space-bottom">
+							<h2 class=" text-center text-default">Görülmemiş Yapay Zeka Performansı</h2>
+							<div class="separator"></div>
+						</div>
+						<div class="col-md-4 text-center">
+							<h3 class="text-default">EĞİTİM</h3>
+							<h6>DLRM eĞİTİMİ</h6>
+							<p>En Büyük Modellerde Yapay Zeka Eğitimi için 3 Kat Daha Yüksek Başarım</p>
+							<img class="" alt="NVIDIA DGX-A100" src="images/dgx-a100-performance-1.png">
+							<p class="text-small text-grey text-left">DLRM on HugeCTR framework, precision = FP16 | 1x DGX A100 640GB batch size = 48 | 2x DGX A100 320GB batch size = 32 | 1x DGX-2 (16x V100 32GB) batch size = 32. Speedups Normalized to Number of GPUs.</p>
+						</div>
+						<div class="col-md-4 text-center">
+							<h3 class="text-default">ÇIKARIM</h3>
+							<h6>RNN-T Çıkarımı: Tek Akış</h6>
+							<p>AI Çıkarımı için 1,25 Kat'a Kadar Daha Yüksek Başarım <br>&nbsp;</p>
+							<img class="" alt="NVIDIA DGX-A100" src="images/dgx-a100-performance-2.png">
+							<p class="text-small text-grey text-left">MLPerf 0.7 RNN-T measured with (1/7) MIG slices. Framework: TensorRT 7.2, dataset = LibriSpeech, precision = FP16. </p>
+						</div>
+						<div class="col-md-4 text-center">
+							<h3 class="text-default">VERİ ANALİZİ</h3>
+							<h6>Büyük Veri Analizi Karşılaştırması</h6>
+							<p>CPU'dan 83 Kat'a Kadar Daha Yüksek Verim, DGX A100 320GB'dan 2 Kat Daha Yüksek Verim</p>
+							<img class="" alt="NVIDIA DGX-A100" src="images/dgx-a100-performance-3.png">
+							<p class="text-small text-grey text-left">Big data analytics benchmark |  30 analytical retail queries, ETL, ML, NLP on 10TB dataset | CPU: 19x Intel Xeon Gold 6252 2.10 GHz, Hadoop | 16x DGX-1 (8x V100 32GB each), RAPIDS/Dask | 12x DGX A100 320GB and 6x DGX A100 640GB, RAPIDS/Dask/BlazingSQL. Speedups Normalized to Number of GPUs</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="darker-bg border-top">
+				<div class="container pv-40">
+
+					<h2 class="text-center text-default pv-20 mb-20">DGX A100'ÜN GÜÇLÜ BİLEŞENLERİNİ KEŞFEDİN</h2>
+					<div class="row pv-40">
+
+						<div class="col-sm-12 col-md-5 mt30-xs">					
+							<div class="mt-10">							
+								<p><span class="default-bg circle">&nbsp;1&nbsp;</span><span style="text-transform: uppercase;"> <span class="text-default pl-5"><strong> 640 GB'A KADAR TOPLAM GPU HAFIZASIYLA 8X NVIDIA A100 GPU</strong></span></span><br> 12 NVLinks/GPU, 600 GB/sn GPU'dan GPU'ya Çift Yönlü Bant Genişliği<br> </p>
+							</div>
+							<div class="mt-20">
+								<p><span class="default-bg circle">&nbsp;2&nbsp;</span><span style="text-transform: uppercase;"> <span class="text-default pl-5"><strong> 6x NVIDIA NVSwitch</strong></span></span><br> 4,8 TB/sn Çift Yönlü Bant Genişliği, Önceki Nesil NVSwitch'ten 2 Kat Daha Fazla<br> </p>
+							</div>
+							<div class="mt-20">
+								<p><span class="default-bg circle">&nbsp;3&nbsp;</span> <span class="text-default pl-5"><strong> 10X MELLANOX CONNECTX-6 200 Gb/s AĞ ARAYÜZÜ</strong></span><br> 500 GB/sn Çift Yönlü En Yüksek Bant Genişliği</p>
+							</div>
+							<div class="mt-20">
+								<p><span class="default-bg circle">&nbsp;4&nbsp;</span> <span style="text-transform: uppercase;"><span class="text-default pl-5"><strong> Çift 64-Çekirdekli AMD İşlemci ve 2TB Sistem Belleği</strong></span></span><br> En Yoğun Yapay Zeka İşlerini Güçlendirmek için 3,2 Kat Daha Fazla İşlemci Çekirdeği</p>
+							</div>
+							<div class="mt-20">
+								<p><span class="default-bg circle">&nbsp;5&nbsp;</span> <span style="text-transform: uppercase;"><span class="text-default pl-5"><strong> 30 TB Gen4 NVME SSD Diskleri</strong><span style="text-transform: lowercase;"></span></span></span><br> 50 GB/sn En Yüksek Bant Genişliği ile Gen3 NVME SSD'lerden 2 Kat Daha Hızlı<br> </p>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-7">
+							<img class="" alt="NVIDIA DGX-A100" src="images/dgx-a100-components.jpg">
+						</div>
+
+					</div><!-- /row -->  
+
+				</div><!-- /container -->
+			</section>
+			<section class="dull-width-section pv-20 border-clear">
+				<div class="container pv-40">
+
+					<div class="row">
+						<div class="col-sm-6 col-md-4">
+							<span class="space-top visible-xs visible-sm"></span>
+							<h5>Hızlı ve Kolay Kurulum</h5>
+							<div class="separator-2"></div>
+							<p>Anahtar teslimi NVIDIA DGX A100 sistemi tak ve çalıştır kurulumu sağlar ve dakikalar içinde yapay zekaya için hazırdır. Yapay zeka altyapısı yeniden tasarlandı, optimize edildi ve kurumsal yapay zeka işleri için hazır hale getirildi. Kuruluşunuzda yapay zekanın kilidini bugün açın!</p>
+							<a class="link-default" target="_blank" href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-datasheet.pdf">Veri Sayfasını İndirin (PDF)</a>
+						</div>
+						<div class="col-sm-6 col-md-4">
+							<span class="space-top visible-xs visible-sm"></span>
+							<h5>Rekabette Bir Adım Önde Olun</h5>
+							<div class="separator-2"></div>
+							<p>NVIDIA DGX A100, her Yapay Zeka iş yükü için en hızlı çözümleri sunan temel araç olacak şekilde tasarlanmıştır. Aynı sistem üzerinde veri analizi, eğitim ve çıkarım iş yüklerini çalıştırın.</p>
+							<a class="link-default" target="_blank" href="https://images.nvidia.com/aem-dam/Solutions/Data-Center/nvidia-dgx-a100-infographic.pdf">Bilgi grafiğine göz atın (PDF)</a>
+						</div>
+						<div class="col-sm-12 col-md-4">
+							<span class="space-top visible-xs visible-sm"></span>
+							<h5>Yatırımınızı Maksimize Edin</h5>
+							<div class="separator-2"></div>
+							<p>Üretkenliği artırmak ve sistem arıza süresini azaltmak için ihtiyacınız olan desteği alın. Donanım ve yazılım desteği, NVIDIA derin öğrenme uzmanlığına erişmenizi sağlar ve bulut yönetimi hizmetlerini, yazılım yükseltmelerini ve güncellemelerini ve kritik sorunlarınızın öncelikli çözümünü içerir.</p>
+							<a class="link-default" href="" data-toggle="modal" data-target="#SupportModal">Destek Hakkında Daha Fazla Bilgi Edinin</a>
+						</div>
+
+					</div>  
+
+				</div><!-- /container -->
+			</section>
+			<section class="light-gray-bg border-top">
+				<div class="container mb-20">
+
+					<div class="row">
+						<div class="col-sm-12 col-md-10 col-md-offset-1 space-bottom">
+							<span class="space-top visible-xs visible-sm"></span>
+							<h3 class="text-center space-top">Hemen NVIDIA DGX A100 Siparişi Verin</h3>
+							<div class="separator"></div>
+							<p class="text-center">Dünyanın En Hızlı Yapay Zeka Derin Öğrenme Platformu NVIDIA® DGX-1™ V100 Edition <strong>Kiralama & Satın Alma</strong> seçenekleri ile Akademik ve Ticari Araştırmalar için hizmetinize sunulmuştur.</p>
+							<p class="text-center"><em>NVIDIA Akademik indirimleri mevcuttur. Uygunluk gereksinimleri ve yasal hüküm ve koşullar için lütfen iletişime geçin.</em></p>
+							<div class="row">
+								<div class="col-sm-5 col-sm-offset-1">
+									<span class="space-top visible-xs visible-sm"></span>
+									<a href="contact.html" class="btn btn-default btn-lg btn-block btn-hvr hvr-shutter-out-horizontal margin-clear">SATIN ALMA</a>
+								</div>
+								<div class="col-sm-5">
+									<span class="space-top visible-xs visible-sm"></span>
+									<a href="renting.html" class="btn btn-default btn-lg btn-block btn-hvr hvr-shutter-out-horizontal margin-clear"><span class="button-badge"><span class="badge badge-red">YENİ</span></span>KİRALAMA</a>
+								</div>
+							</div>
+						</div>
+					</div>  
+
+				</div><!-- /container -->
+			</section>
+			<!-- section end -->
+			<div class="modal fade" id="SupportModal" tabindex="-1" role="dialog" aria-labelledby="SupportModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Kapat</span></button>
+							<h4 class="modal-title" id="SupportModalLabel">Destek Hakkında</h4>
+						</div>
+						<div class="modal-body">
+							<h5>Uygulama Seviyesi Destek</h5>
+							<div class="separator-2"></div>
+							<p>CompecTA, Yüksek Başarımlı Hesaplama Sistemleri'nde 20 yılı aşkın tecrübesi ile müşterilerine sistem yönetimi ve uygulama düzeyinde destek vermektedir.</p>
+							<p>Sitemleri sizin için tasarlıyor, devreye alıyor ve problem çözme desteği sağlıyoruz. Siparişinizden başlayarak satış sonrası destek ve sisteminizdeki çalışan işlere kadar her şeyi yönetiyoruz.</p>
+							<p>Uygulama, donanım ve yazılım sorunlarınız konusunda sizlere sağladığımız destek ile size kalan tek şey hızlı ve yüksek performanslı çözümünüzün keyfini çıkarmaktır.</p>
+							<h5>DGX A100 Destek Detayları</h5>
+							<div class="separator-2"></div>
+							<p>NVIDIA DGX A100 desteği, NVIDIA DGX A100 sisteminizden en kapsamlı hizmetleri almanız için size kapsamlı sistem desteği ve NVIDIA'nın bulut yönetim portalına erişim sağlar.</p>
+							<p>NVIDIA bulut yönetimi ile kapsayıcılı uygulama yönetiminden yararlanarak derin öğrenme denemesini kolaylaştırın, işleri başlatın, durumu izleyin ve yazılım güncellemelerini alın.</p>
+							<h5>DGX A100 Belgeleri</h5>
+							<div class="separator-2"></div>
+							<ul>
+								<li><a class="link-default" target="_blank" href="https://docs.nvidia.com/dgx/dgxa100-user-guide/index.html">DGX A100 Kullanım Kılavuzu</a></li>
+								<li><a class="link-default" target="_blank" href="https://docs.nvidia.com/dgx/pdf/dgxa100-user-guide.pdf">DGX A100 Kullanım Kılavuzu (PDF)</a></li>
+								<li><a class="link-default" target="_blank" href="https://images.nvidia.com/aem-dam/en-zz/Solutions/data-center/dgx-a100/dgxa100-system-architecture-white-paper.pdf">DGX A100 Teknik Raporu</a></li>
+							</ul>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-sm btn-dark" data-dismiss="modal">Kapat</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<section class="section default-bg pv-30 clearfix">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<div class="call-to-action text-center">
+									<div class="row">
+										<div class="col-sm-8 col-sm-offset-2">
+											<h2 class="title">Daha fazla bilgi</h2>
+											<p>Uzmanlarımız tüm sorularınızı cevaplamak için hazırdır, bunun için bize ulaşmanız yeterlidir.</p>
+											<div class="separator"></div>
+											<form class="form-inline margin-clear">
+												<div class="lead margin-clear">
+													<label class="sr-only">Email address</label>
+													<i class="fa fa-envelope"></i> <a href="mailto:info@compecta.com" class="link-dark">info@compecta.com</a><br class="visible-xs"><div class="mt-5 visible-xs"></div>
+													<i class="fa fa-phone pr-5 pl-10"></i> +90 216 455-1865
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			</section>
+
+		<!-- main-container end -->
+
+		<!-- footer start -->
+		<!-- ============ -->
+		<footer id="footer" class="clearfix dark">
+
+			<!-- .footer start -->
+			<div class="footer">
+				<div class="container">
+					<div class="footer-inner">
+						<div class="row">
+							<div class="col-lg-10 col-lg-offset-1">
+								<div class="footer-content text-center padding-ver-clear">
+									<div class="logo-footer"><img id="logo-footer" class="center-block" src="images/compecta-logo-footer.png" alt=""></div>
+									<div class="mb-20">
+										<i class="text-default fa fa-map-marker pr-5"></i>Yenişehir Mh Barajyolu Cad. Özgür Sk. No:7 K:3 D:4 Ataşehir / İSTANBUL <br>
+										<i class="text-default fa fa-phone pr-5"></i>+90 216 455-1865<br class="visible-xs">
+										<i class="text-default fa fa-fax pl-10 pr-5"></i>+90 216 455-3988<br class="visible-xs">
+										<i class="text-default fa fa-envelope-o pl-10 pr-5"></i><a href="mailto:info@compecta.com" class="link-dark">info@compecta.com</a>
+									</div>
+									<div class="separator"></div>
+									<div class="owl-carousel clients">
+										<div class="client"><img class="partner-image" src="images/partners/intel.png" alt="Intel"></div>
+										<div class="client"><img class="partner-image" src="images/partners/altair.png" alt="Mellanox"></div>
+										<div class="client"><img class="partner-image" src="images/partners/mellanox.png" alt="Mellanox"></div>
+										<div class="client"><img class="partner-image" src="images/partners/nvidia.png" alt="NVIDIA"></div>
+										<div class="client"><img class="partner-image" src="images/partners/beegfs.png" alt="BeeGFS"></div>
+										<div class="client"><img class="partner-image" src="images/partners/redhat.png" alt="Redhat"></div>
+										<div class="client"><img class="partner-image" src="images/partners/microsoft.png" alt="Microsoft"></div>
+										<div class="client"><img class="partner-image" src="images/partners/supermicro.png" alt="Cisco"></div>
+										<div class="client"><img class="partner-image" src="images/partners/fujitsu.png" alt="Fujitsu"></div>
+										<div class="client"><img class="partner-image" src="images/partners/hpe.png" alt="HP"></div>
+										<div class="client"><img class="partner-image" src="images/partners/ibm.png" alt="IBM"></div>
+										<div class="client"><img class="partner-image" src="images/partners/dell.png" alt="Dell"></div>
+										<div class="client"><img class="partner-image" src="images/partners/cisco.png" alt="Cisco"></div>
+										<div class="client"><img class="partner-image" src="images/partners/brocade.png" alt="Brocade"></div>
+										<div class="client"><img class="partner-image" src="images/partners/scalemp.png" alt="Brocade"></div>
+									</div>
+									<div class="separator"></div>
+									<p class="text-center margin-clear small">Tüm hakları saklıdır. © 2007-2023 CompecTA Bilişim ve İletişim Hizmetleri Ltd. Şti.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+
+		</footer>
+		<!-- footer end -->
+		
+	</div>
+	<!-- page-wrapper end -->
+
+	<!-- JavaScript -->
+	<!-- ================================================== -->
+	<!-- Jquery and Bootstap core js files -->
+	<script type="text/javascript" src="plugins/jquery.min.js"></script>
+	<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- Modernizr javascript -->
+	<script type="text/javascript" src="plugins/modernizr.js"></script>
+	<!-- Appear javascript -->
+	<script type="text/javascript" src="plugins/waypoints/jquery.waypoints.min.js"></script>
+	<!-- Count To javascript -->
+	<script type="text/javascript" src="plugins/jquery.countTo.js"></script>
+	<!-- Owl carousel javascript -->
+	<script type="text/javascript" src="plugins/owl-carousel/owl.carousel.min.js"></script>
+	<!-- SmoothScroll javascript -->
+	<script type="text/javascript" src="plugins/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="plugins/SmoothScroll.min.js"></script>
+	
+	<!-- Initialization of Plugins -->
+	<script type="text/javascript" src="js/compecta.min.js"></script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-2469656-9', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
